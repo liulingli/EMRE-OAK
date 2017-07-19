@@ -1,0 +1,62 @@
+/*可以在这里添加你自己的css*/
+.oak-left{
+    color:blue;
+    padding:0 2px;
+}
+.oak-right{
+    color:blue;
+    padding:0 2px;
+}
+.oak-field-value{
+    padding:0 3px;
+    margin-left:-3px;
+    margin-right:-3px;
+    display:inline-block;
+}
+.oak-field-value:focus{
+    outline: none;
+}
+.oak-field{
+    position:relative;
+}
+/* 自定义select下拉框样式*/
+.oak-select-root{
+    display: inline;
+}
+.oak-field.oak-select-root{
+    position:initial;
+    min-width: 100%;
+}
+.oak-select-content{
+    position:absolute;
+    z-index:99999;
+    left:0;
+    min-width: 100%;
+}
+.oak-select{
+    min-width: 100%;
+    padding:4px 2px !important;
+    border:1px solid #f4f4f4;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px, rgba(0, 0, 0, 0.2) 0 1px 2px;
+    background:#ffffff;
+    overflow:hidden;
+}
+.oak-select li{
+    min-width: calc(100% - 10px);
+    padding:0 5px;
+    display:block;
+    list-style: none;
+    font-size:12px;
+    line-height:20px;
+    color:#3c3c3c;
+    cursor:pointer;
+    white-space: nowrap;
+}
+.oak-select li:hover{
+    background:rgba(15,136,235,0.4);
+}
+.oak-select li.selected,
+.oak-select li.selected:hover{
+    background:rgba(15,136,235,0.8);
+    color:#ffffff;
+}

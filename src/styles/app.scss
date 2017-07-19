@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body,html{
+  width:100%;
+  height:auto;
+  background:#dcdcdc;
+  font-size:12px;
+  font-family: 'microsoft yahei';
+}
+.emra-oak{
+  width:100%;
+  height:100%;
+
+  .edui-editor-toolbarbox{
+    display:none;
+  }
+}
+.ueditor-oak{
+  width:100%;
+  height:100%;
+  position:relative;
+}
+.ueditor-toobar-oak{
+  width:100%;
+  margin:0 auto;
+  background:#f1f1f1;
+  position:absolute;
+  top:0;
+
+  .edui-button-oak{
+    display: inline-block;
+    padding:2px 8px;
+    margin-right:8px;
+    border:1px solid #cccccc;
+    &:hover,&.active{
+      background-color: #fff5d4;
+      border: 1px solid #dcac6c;
+    }
+  }
+}
+.tab-list{
+  width:100%;
+}
+.tab-list-item{
+  display:inline-block;
+  padding:3px 15px;
+  margin-top:2px;
+  margin-left: 4px;
+  margin-right:4px;
+  //border:1px solid #f3f3f3;
+  border-bottom:none;
+  cursor: pointer;
+  &:hover{
+    background: #ffffff;
+  }
+}
+.tab-list-item.theme{
+  background:#0f88eb;
+  color:#fff;
+  padding:4px 15px;
+  font-size:13px;
+  font-weight:600;
+  border:none;
+  margin:0;
+  cursor:default;
+}
+.tab-list-item.tab-list-item-active{
+  background:#fff;
+}
+.tab-content{
+  width:100%;
+}
+.tab-content-item{
+  width:calc(100% - 12px);
+  display: none;
+  padding:6px;
+  //min-height:50px;
+}
+.tab-content-item.tab-content-item-active{
+  display: block;
+  background:#fdfdfd;
+  border-bottom:1px solid #f3f3f3;
+}
+.ueditor-content-oak{
+  width:100%;
+  height:calc(100% - 90px);
+  position:absolute;
+  top:90px;
+  overflow: auto;
+}
+.ueditor-script-oak{
+  margin:15px auto;
+  min-height:800px;
+}
+.edui-editor{
+  box-shadow:rgba(0, 0, 0, 0.2) 0 1px 6px, rgba(0, 0, 0, 0.2) 0 1px 4px;
+}
+/*图标样式 空间库图标 */
+.edui-default .edui-toolbar .edui-button.edui-for-controllibrary-1 .edui-icon{
+  background-size:75%;
+  background-position: center center ;
+  background-repeat: no-repeat;
+}
+/*图标样式 多选图标 */
+.edui-default .edui-toolbar .edui-button.edui-for-checkbox-1 .edui-icon{
+  background-size:85%;
+  background-position: center center ;
+  background-repeat: no-repeat;
+}
+/*图标样式 单选图标 */
+.edui-default .edui-toolbar .edui-button.edui-for-radio-1 .edui-icon{
+  width: 24px !important;
+  background-size:65%;
+  background-position: center center ;
+  background-repeat: no-repeat;
+}
+/*图标样式 下拉框图标 */
+.edui-default .edui-toolbar .edui-button.edui-for-select-1 .edui-icon{
+  width: 40px !important;
+  background-size:79%;
+  background-position: center center ;
+  background-repeat: no-repeat;
+}
+/*图标样式 单行文本输入图标 */
+.edui-default .edui-toolbar .edui-button.edui-for-input-1 .edui-icon{
+  width: 40px !important;
+  background-size:80% 82%;
+  background-position: center center ;
+  background-repeat: no-repeat;
+}
+/*图标样式 多行文本输入图标 */
+.edui-default .edui-toolbar .edui-button.edui-for-textarea-1 .edui-icon{
+  width: 40px !important;
+  background-size:80% 80%;
+  background-position: center center ;
+  background-repeat: no-repeat;
+}
+/*图标样式 时间控件输入图标 */
+.edui-default .edui-toolbar .edui-button.edui-for-timeinput-1 .edui-icon {
+  width: 32px !important;
+  background-size: 80% 83%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.edui-default .edui-bubble .edui-popup-content{
+  font-family:'microsoft yahei' !important;
+  font-size:12px !important;
+  padding:4px 12px !important;
+}
+/* 通用组件样式 */
+.panel{
+  color:#3c3c3c;
+  font-family: 'microsoft yahei';
+  border:1px solid #cccccc;
+  .panel-title{
+    font-size:12px;
+    text-align: center;
+  }
+  .panel-content{
+    padding: 8px;
+  }
+}

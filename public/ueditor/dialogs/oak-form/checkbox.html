@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>复选框</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
+    <link href="./oak-form.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="../internal.js"></script>
+    <script type="text/javascript">
+      function createElement(type, name)
+      {
+        var element = null;
+        try {
+          element = document.createElement('<'+type+' name="'+name+'">');
+        } catch (e) {}
+        if(element==null) {
+          element = document.createElement(type);
+          element.name = name;
+        }
+        return element;
+      }
+      function $id(id){
+          return document.getElementById(id);
+      }
+      //扩展chrome下的moveRow
+      if (!window.attachEvent) {
+        function getTRNode(nowTR, sibling) {
+          while (nowTR = nowTR[sibling]) if (nowTR.tagName == 'TR') break;
+          return nowTR;
+        }
+        if (typeof Element != 'undefined') {
+          Element.prototype.moveRow = function(sourceRowIndex, targetRowIndex) //执行扩展操作
+          {
+            if (!/^(table|tbody|tfoot|thead)$/i.test(this.tagName) || sourceRowIndex === targetRowIndex) return false;
+            var pNode = this;
+            if (this.tagName == 'TABLE') pNode = this.getElementsByTagName('tbody')[0]; //firefox会自动加上tbody标签，所以需要取tbody，直接table.insertBefore会error
+            var sourceRow = pNode.rows[sourceRowIndex],
+              targetRow = pNode.rows[targetRowIndex];
+            if (sourceRow == null || targetRow == null) return false;
+            var targetRowNextRow = sourceRowIndex > targetRowIndex ? false: getTRNode(targetRow, 'nextSibling');
+            if (targetRowNextRow === false) pNode.insertBefore(sourceRow, targetRow); //后面行移动到前面，直接insertBefore即可
+            else { //移动到当前行的后面位置，则需要判断要移动到的行的后面是否还有行，有则insertBefore，否则appendChild
+              if (targetRowNextRow == null) pNode.appendChild(sourceRow);
+              else pNode.insertBefore(sourceRow, targetRowNextRow);
+            }
+          }
+        }
+      }
+      /*删除tr*/
+      function fnDeleteRow(obj){
+        var oTable = document.getElementById("options_table");
+        while(obj.tagName !='TR')
+        {
+          obj = obj.parentNode;
+        }
+        oTable.deleteRow(obj.rowIndex);
+      }
+
+      /*上移*/
+      function fnMoveUp(obj){
+        var oTable = document.getElementById("options_table");
+        while(obj.tagName !='TR')
+        {
+          obj = obj.parentNode;
+        }
+        var minRowIndex = 1;
+        var curRowIndex = obj.rowIndex;
+        if(curRowIndex-1>=minRowIndex) {
+          oTable.moveRow(curRowIndex,curRowIndex-1);
+        }
+
+      }
+      /*下移*/
+      function fnMoveDown(obj) {
+        var oTable = document.getElementById("options_table");
+        while(obj.tagName !='TR'){
+          obj = obj.parentNode;
+        }
+        var maxRowIndex = oTable.rows.length;
+        var curRowIndex = obj.rowIndex;
+        if(curRowIndex+1<maxRowIndex){
+          oTable.moveRow(curRowIndex,curRowIndex+1);
+        }
+      }
+
+      /*生成tr*/
+      function fnAddComboTr(gName,obj){
+        var oTable = document.getElementById('options_table');
+        var new_tr_node= oTable.insertRow(oTable.rows.length);
+        var new_td_node0 = new_tr_node.insertCell(0),
+            new_td_node1 = new_tr_node.insertCell(1),
+            new_td_node2 = new_tr_node.insertCell(2);
+        var sChecked = '';
+        if(obj.checked) sChecked = 'checked="checked"';
+        if(!obj.name) obj.name = '';
+        if(!obj.value) obj.value = '';
+        new_td_node0.innerHTML = '<td><input type="checkbox" '+sChecked+' name="'+gName+'"></td>';
+        new_td_node1.innerHTML = '<td><input type="text" value="'+obj.value+'" name="'+gName+'" placeholder="选项值"></td>';
+        new_td_node2.innerHTML ='<td><span class="btn-group clrfix"><button class="btn small primray" onclick="fnMoveDown(this);">下移</button> <button class="btn small primray" onclick="fnMoveUp(this);">上移</button> <button class="btn small error" onclick="fnDeleteRow(this);">删除</button></span></td>';
+        return true;
+      }
+      function fnAdd(){
+        var dName = $id('hidName').value;
+        if(!dName) dName = 'oakField';
+        fnAddComboTr(dName,{
+          "checked":false,
+          "name":'oakField',
+          "value":''
+        });
+      }
+      /*组合checkbox*/
+      function fnParseOptions(gName,gChecked){
+        var oTable = document.getElementById('options_table');
+        var nTr = oTable.getElementsByTagName('tr'),
+            trLength = nTr.length,
+            html="";
+        for(var i=0;i<trLength;i++){
+          var inputs = nTr[i].getElementsByTagName('input');
+
+          if(inputs.length>0){
+            if(!inputs[1].value) continue;
+            var sChecked = '';
+            if(inputs[0].checked) sChecked = 'checked';
+            html += '<input class="oak-field" name="'+gName+'" value="'+inputs[1].value+'" '+sChecked+' type="checkbox"/>'+inputs[1].value+'&nbsp;';
+            if(gChecked=='vertical')//竖排
+              html+='<br/>';
+          }
+        }
+        return html;
+
+      }
+    </script>
+</head>
+<body>
+<div class="content">
+    <input type="hidden" id="hidName">
+    <table class="table oak-table">
+        <tr>
+            <th><span>控件名称</span><span class="label label-important">*</span></th>
+            <th><span>控件ID</span></th>
+            <th><span>排列方式</span></th>
+        </tr>
+        <tr>
+            <td><input type="text" id="orgname" placeholder="必填项"/></td>
+            <td><input type="text" id="orgID" placeholder="可选项" /></td>
+            <td>
+                <label><input type="radio" name="orient" id="horizontal" value="horizontal" checked="checked"/>横排</label>
+                <label><input type="radio" name="orient" id="vertical" value="vertical"/>竖排</label>
+            </td>
+        </tr>
+    </table>
+    <div class="oak-tab">
+        <ul class="oak-tab-list">
+            <li class="item active">固定选项</li>
+            <li class="item">动态数据</li>
+        </ul>
+        <div class="oak-tab-content">
+            <div id="fixed" class="content active">
+                <div class="foot-btn">
+                    <button class="btn primray" id="add-option" onclick="fnAdd();">添加选项</button>
+                </div>
+                <table id="options_table" class="table oak-table">
+                    <tr>
+                        <th width="50px"><span>选中</span></th>
+                        <th><span>选项值</span></th>
+                        <th width="130px"><span>操作</span></th>
+                    </tr>
+                </table>
+            </div>
+            <div id="dynamic" class="content">
+                <input type="text" placeholder="支持get请求的完整url地址（http://）" style="width:90%;" id="url">
+                <div class="alert alert-info">
+                    <h4>提示：</h4>
+                    <ol>
+                        <li>1.如url中的值不为空此时不关注固定选项中有没有值，优先取地址中的值；</li>
+                        <li>2.地址中的json格式如下：<br>[{VALUE:'',TEXT:'',SELECTED:0/1}]<br>其中SELECTED=0未选中，SELECTED=1已选中</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<script type="text/javascript">
+    var oNode = null,thePlugins = 'checkbox';
+    window.onload = function() {
+      //tab选项卡
+      var oTab=document.getElementsByClassName('oak-tab')[0];
+      var aLi=oTab.getElementsByClassName('oak-tab-list')[0].getElementsByTagName('li');
+      var oTabBox=oTab.getElementsByClassName('oak-tab-content')[0];
+      var aBox=oTabBox.getElementsByClassName('content');
+      for(var i=0;i<aLi.length;i++){
+        aLi[i].index=i;
+        aLi[i].onclick=function(){
+          for(var j=0;j<aLi.length;j++){
+            aLi[j].className='item';//取消菜单样式
+            aBox[j].className='content';//隐藏所有的tabDiv
+          }
+          aLi[this.index].className='item active';
+          aBox[this.index].className='content active';
+        }
+      }
+      if( UE.plugins[thePlugins].editdom ){
+        oNode = UE.plugins[thePlugins].editdom;
+        var gTitle= oNode.getAttribute('title').replace(/&quot;/g,"\"");
+        var orgID = oNode.getAttribute('id').replace(/&quot;/g,"\"");
+        $id('orgname').value = gTitle;
+        $id('orgID').value = orgID||"";
+        var checked = oNode.getAttribute('orgchecked');
+        checked=='horizontal' ? $id('horizontal').checked = true : $id('vertical').checked = true;
+
+        var inputTags = oNode.getElementsByTagName('input');
+        var length = inputTags.length;
+        var aInputs = [];
+        for(var i=0;i<length;i++) {
+          if(inputTags[i].type =='checkbox'){
+            var obj = {
+              checked : inputTags[i].checked,
+              value : inputTags[i].value,
+              name : inputTags[i].name
+            };
+            fnAddComboTr(inputTags[i],obj);
+          }
+        }
+      }
+    }
+    dialog.oncancel = function () {
+      if( UE.plugins[thePlugins].editdom ) {
+        delete UE.plugins[thePlugins].editdom;
+      }
+    };
+    dialog.onok = function (){
+      if( $G('orgname').value == '') {
+        alert('控件名称不能为空');
+        return false;
+      }
+      var gTimestamp = new Date().getTime();
+      var orgID = $id('orgID').value;
+      var name = orgID + gTimestamp;
+      var gTitle = $id('orgname').value.replace(/\"/g,"&quot;");
+      if(!name){
+        name = $id('orgname').value.replace(/\"/g,"&quot;")+gTimestamp;
+      }
+      var placeStyle = 'width:auto'; //防止ueditor改变样式
+      var gChecked = 'horizontal';
+      if ($id('vertical').checked) gChecked = 'vertical';
+      if( !oNode ) {
+        try {
+          var gTimestamp = new Date().getTime();//相同的gTimestamp为同一组checkbox
+          var options = fnParseOptions(name,gChecked,gTimestamp);
+          if(!options){
+            alert('请添加选项');
+            return false;
+          }
+          //{|- 使用边界，防止用户删除了span标签，程序处理要把边界替换为空
+          var html = '<span class="oak-field" style="'+placeStyle+'" oakplugin="checkbox" id="'+orgID+'" title="'+gTitle+'" orgchecked="'+gChecked+'" contenteditable="false">';
+          html += '<span class="oak-field oak-left" style="'+placeStyle+'" contenteditable="false">[</span>';
+          html +=options;
+          html += '<span class="oak-field oak-right" style="'+placeStyle+'" contenteditable="false">]</span>';
+          html +='</span>';
+          editor.execCommand('insertHtml',html);
+          return true ;
+        } catch ( e ) {
+          try {
+            editor.execCommand('error');
+          } catch ( e ) {
+            alert('控件异常，请到【橡树信息】反馈或寻求帮助！');
+          }
+          return false;
+        }
+      } else {
+        oNode.setAttribute('title',gTitle);
+        oNode.setAttribute('orgchecked',gChecked);
+        oNode.innerHTML = '<span class="oak-field oak-left" style="'+placeStyle+'" contenteditable="false">[</span>'+fnParseOptions(name,gChecked,gTimestamp)
+                        + '<span class="oak-field oak-right" style="'+placeStyle+'" contenteditable="false">]</span>';
+        delete UE.plugins[thePlugins].editdom;
+        return true;
+      }
+    };
+</script>
+</body>
+</html>

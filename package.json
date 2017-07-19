@@ -1,0 +1,49 @@
+{
+  "name": "EMRE-OAK",
+  "version": "1.0.0",
+  "description": "电子病历编辑器",
+  "main": "./src/entry.js",
+  "author": "liulingli",
+  "license": "MIT",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
+    "start": "node app.js",
+    "dev": "webpack-dev-server --hot --history-api-fallback --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liulingli/EMRE-OAK.git"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "webpack",
+    "es2015",
+    "javascript"
+  ],
+  "dependencies": {
+    "express": "^4.15.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "classnames": "^2.2.5",
+    "cross-env": "^3.1.3",
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.11.1",
+    "node-sass": "^4.5.2",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}

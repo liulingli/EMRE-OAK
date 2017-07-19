@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>文本域输入框</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
+    <link href="./oak-form.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="../internal.js"></script>
+    <script type="text/javascript">
+      function createElement(type, name)
+      {
+        var element = null;
+        try {
+          element = document.createElement('<'+type+' name="'+name+'">');
+        } catch (e) {}
+        if(element==null) {
+          element = document.createElement(type);
+          element.name = name;
+        }
+        return element;
+      }
+      function $id(id){
+        return document.getElementById(id);
+      }
+    </script>
+</head>
+<body>
+<div class="content">
+    <input type="hidden" id="hidName">
+    <table class="table oak-table">
+        <tr>
+            <th><span>控件名称</span><span class="label label-important">*</span></th>
+            <th><span>控件ID</span></th>
+            <th><span>默认值</span></th>
+        </tr>
+        <tr>
+            <td><input type="text" id="orgname" placeholder="必填项"/></td>
+            <td><input type="text" id="orgID" placeholder="可选项" /></td>
+            <td><input type="text" id="defaultValue" placeholder="可选项" /></td>
+        </tr>
+        <tr>
+            <th><span>数据类型</span></th>
+            <th><span>正则表达式</span></th>
+            <th><span>对齐方式</span></th>
+        </tr>
+        <tr>
+            <td>
+                <select id="textType">
+                    <option value="普通文本">普通文本</option>
+                    <option value="数字">数字</option>
+                    <option value="身份证号">身份证号</option>
+                </select>
+            </td>
+            <td><input type="text" id="regnex" placeholder="自定义正则表达式" /></td>
+            <td>
+                <select id="textAlign">
+                    <option value="left">居左对齐</option>
+                    <option value="center">居中对齐</option>
+                    <option value="right">居右对齐</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2"><span> 最小宽度 & 字体大小</span></th>
+            <th><span>字体颜色</span></th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="text" id="width" value="20" style="width:40px;"/> &
+                <input type="text" id="fontSize" value="12" style="width:40px;"/>px
+            </td>
+            <th><input type="color" id="color" value="#3c3c3c"/></th>
+        </tr>
+    </table>
+</div>
+<script type="text/javascript">
+  var oNode = null,thePlugins = 'input';
+  window.onload = function() {
+    if( UE.plugins[thePlugins].editdom ) {
+      oNode = UE.plugins[thePlugins].editdom;
+      var obj = eval("(" + oNode.getAttribute('obj') + ")");
+      for(var key in obj){
+        if($id(key)){
+          $id(key).value =  obj[key];
+        }
+      }
+    }
+  }
+  dialog.oncancel = function () {
+    if( UE.plugins[thePlugins].editdom ) {
+      delete UE.plugins[thePlugins].editdom;
+    }
+  };
+  dialog.onok = function (){
+    if( $G('orgname').value == '') {
+      alert('控件名称不能为空');
+      return false;
+    }
+    var gTimestamp = new Date().getTime();
+    var orgID = $id('orgID').value;
+    var name = orgID + gTimestamp;
+    var gTitle = $id('orgname').value.replace(/\"/g,"&quot;");
+    var obj = {
+      orgname : $id('orgname').value || '',
+      orgID : $id('orgID').value || '',
+      defaultValue : $id('defaultValue').value  || '',
+      regnex : $id('regnex').value  || '',
+      textType : $id('textType').value  || '',
+      width : $id('width').value  || 20,
+      fontSize : $id('fontSize').value  || 12,
+      color : $id('color').value  || '#3c3c3c',
+      textAlign : $id('textAlign').value  || 'left',
+    };
+    var objStr = JSON.stringify(obj).replace(/\"/g,'\'');
+    var style = 'min-height:16px;min-width:'+obj.width+'px;font-size:'+obj.fontSize+'px;color:'+obj.color+';text-align:'+obj.textAlign;
+    if( !oNode ) {
+      try {
+        //{|- 使用边界，防止用户删除了span标签，程序处理要把边界替换为空
+        var html = '<span class="oak-field" oakplugin="input" id="'+obj.orgID+'" title="'+gTitle+'" obj="'+objStr+'" contenteditable="false">';
+        html += '<span class="oak-field oak-left" contenteditable="false">[</span>'                                                    /**window.getSelection().focusOffset contenteditable=true的元素获取光标位置*****/
+        html +='<span class="oak-field oak-field-value" style="'+style+'" regnex="'+obj.regnex+'" contenteditable="false" onkeydown="if(window.getSelection().focusOffset==0){if(event.keyCode==8||event.keyCode==46){return false;}}" onblur="this.setAttribute(\'contenteditable\',false)" onclick="this.setAttribute(\'contenteditable\',true);this.focus();">'+obj.defaultValue+'</span>';
+        html += '<span class="oak-field oak-right" contenteditable="false">]</span>'
+        html +='</span>';
+        editor.execCommand('insertHtml',html);
+        return true ;
+      } catch ( e ) {
+        try {
+          editor.execCommand('error');
+        } catch ( e ) {
+          alert('控件异常，请到【橡树信息】反馈或寻求帮助！');
+        }
+        return false;
+      }
+    } else {
+      //oNode.setAttribute('title',gTitle);
+      oNode.setAttribute('obj',objStr)
+      oNode.innerHTML = '<span class="oak-field oak-left" contenteditable="false">[</span>'
+        + '<input class="oak-field oak-field-value" type="text" value="'+obj.defaultValue+'" style="'+style+'" regnex="'+obj.regnex+'"/>'
+        + '<span class="oak-field oak-right" contenteditable="false">]</span>';
+      delete UE.plugins[thePlugins].editdom;
+      return true;
+    }
+  };
+</script>
+</body>
+</html>

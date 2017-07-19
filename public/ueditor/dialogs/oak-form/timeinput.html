@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>日期输入框</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
+    <link href="./oak-form.css" type="text/css" rel="stylesheet" />
+    <style>
+        input[disabled]{
+            color: gray;
+            border:1px solid gray;
+        }
+    </style>
+    <script type="text/javascript" src="../internal.js"></script>
+    <script type="text/javascript">
+      function createElement(type, name) {
+        var element = null;
+        try {
+          element = document.createElement('<'+type+' name="'+name+'">');
+        } catch (e) {}
+        if(element==null) {
+          element = document.createElement(type);
+          element.name = name;
+        }
+        return element;
+      }
+      function $id(id){
+        return document.getElementById(id);
+      }
+
+      // 对Date的扩展，将 Date 转化为指定格式的String
+      // 月(M)、日(d)、小时(h)、分(m)、秒(s)、季度(q) 可以用 1-2 个占位符，
+      // 年(y)可以用 1-4 个占位符，毫秒(S)只能用 1 个占位符(是 1-3 位的数字)
+      // 例子：
+      // (new Date()).Format("yyyy-MM-dd hh:mm:ss.S") ==> 2006-07-02 08:09:04.423
+      // (new Date()).Format("yyyy-M-d h:m:s.S")      ==> 2006-7-2 8:9:4.18
+      Date.prototype.format = function (fmt) { //author: meizz
+        var o = {
+          "M+": this.getMonth() + 1, //月份
+          "d+": this.getDate(), //日
+          "H+": this.getHours(), //小时
+          "m+": this.getMinutes(), //分
+          "s+": this.getSeconds(), //秒
+          "q+": Math.floor((this.getMonth() + 3) / 3), //季度
+          "S": this.getMilliseconds() //毫秒
+        };
+        if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+        for (var k in o)
+          if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+        return fmt;
+      }
+
+      /** 切换日期显示格式**/
+      function changeFormat(target){
+        var format = target.value;
+        //改变默认时间和最大、最小时间的日期显示格式
+        var $default = $id('defaultValue');
+        var $minDate = $id('minDate');
+        var $maxDate = $id('maxDate');
+        $default.setAttribute('format',format);
+        $minDate.setAttribute('format',format);
+        $maxDate.setAttribute('format',format);
+
+        var $defaultValue = $id('defaultValue_1').value?new Date($id('defaultValue_1').value).format(format):'';
+        var $minDateValue = $id('minDate_1').value?new Date($id('minDate_1').value).format(format):'';
+        var $maxDateValue = $id('maxDate_1').value?new Date($id('maxDate_1').value).format(format):'';
+
+        $default.onclick = function(){
+          if(this.nodeType == 1){ //确定this的指向是element
+            var curFormat = this.getAttribute('format');
+            WdatePicker({dateFmt:curFormat,vel:'defaultValue_1'});
+            this.click();
+          }
+        }
+        $default.value = $defaultValue;
+        $minDate.value = $minDateValue;
+        $maxDate.value = $maxDateValue;
+        $minDate.onclick = function(){
+          if(this.nodeType == 1){ //确定this的指向是element
+            var curFormat = this.getAttribute('format');
+            WdatePicker({dateFmt:curFormat,vel:'minDate_1'});
+            this.click();
+          }
+        }
+        $maxDate.onclick = function(){
+          if(this.nodeType == 1){ //确定this的指向是element
+            var curFormat = this.getAttribute('format');
+            WdatePicker({dateFmt:curFormat,vel:'$maxDate_1'});
+            this.click();
+          }
+        }
+      }
+
+    </script>
+</head>
+<body>
+<div class="content">
+    <input type="hidden" id="hidName">
+    <table class="table oak-table">
+        <tr>
+            <th style="width:50%"><span>控件名称</span><span class="label label-important">*</span></th>
+            <th style="width:50%"><span>控件ID</span></th>
+
+        </tr>
+        <tr>
+            <td><input type="text" id="orgname" placeholder="控件名称"/></td>
+            <td><input type="text" id="orgID" placeholder="控件ID" /></td>
+        </tr>
+        <tr>
+            <th><span>格式</span></th>
+            <th><span>默认时间</span></th>
+        </tr>
+        <tr>
+            <td>
+                <select id="textType" onchange="changeFormat(this)">
+                    <option value="yyyy-MM-dd">yyyy-MM-DD</option>
+                    <option value="yyyy年MM月dd日">yyyy年MM月dd日</option>
+                    <option value="yyyy-MM-dd HH:mm:ss">yyyy-MM-dd HH:mm:ss</option>
+                    <option value="yyyy年MM月dd日 HH时mm分ss秒">yyyy年MM月dd日 HH时mm分ss秒</option>
+                </select>
+            </td>
+            <td>
+                <input type="text" id="defaultValue" class="Wdate" format="yyyy-MM-dd" placeholder="默认时间" />
+                <input type="hidden" id="defaultValue_1">
+            </td>
+        </tr>
+        <tr>
+            <th><span>最小时间</span></th>
+            <th><span>最大时间</span></th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="minDate" class="Wdate" format="yyyy-MM-dd" placeholder="最小时间" />
+                <input type="hidden" id="minDate_1" />
+            </td>
+            <td>
+                <input type="text" id="maxDate" class="Wdate" format="yyyy-MM-dd" placeholder="最大时间"  />
+                <input type="hidden" id="maxDate_1" />
+            </td>
+        </tr>
+        <tr>
+            <th><span>字体颜色</span></th>
+            <th colspan="2"><span> 最小宽度 & 字体大小</span></th>
+        </tr>
+        <tr>
+            <td><input type="color" id="color" value="#3c3c3c"/></td>
+            <td colspan="2">
+                <input type="text" id="width" value="20" style="width:40px;"/> &
+                <input type="text" id="fontSize" value="12" style="width:40px;"/>px
+            </td>
+        </tr>
+    </table>
+</div>
+<script type="text/javascript" language="JavaScript" src="../../../My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript">
+  var oNode = null,thePlugins = 'timeinput';
+  window.onload = function() {
+    //绑定日期控件方法
+    $id('defaultValue').onclick = function(){
+      if(this.nodeType == 1){
+        var curFormat = this.getAttribute('format');
+        WdatePicker({dateFmt:curFormat,vel:'defaultValue_1'});
+      }
+    }
+    $id('minDate').onclick = function(){
+      if(this.nodeType == 1){
+        var curFormat = this.getAttribute('format');
+        WdatePicker({dateFmt:curFormat,vel:'minDate_1'});
+      }
+    }
+    $id('maxDate').onclick = function(){
+      if(this.nodeType == 1){
+        var curFormat = this.getAttribute('format');
+        WdatePicker({dateFmt:curFormat,vel:'maxDate_1'});
+      }
+    }
+
+    if( UE.plugins[thePlugins].editdom ) {
+      oNode = UE.plugins[thePlugins].editdom;
+      var obj = eval("(" + oNode.getAttribute('obj') + ")");
+      for(var key in obj){
+        if($id(key)){
+          $id(key).value =  obj[key];
+        }
+      }
+    }
+  }
+  dialog.oncancel = function () {
+    if( UE.plugins[thePlugins].editdom ) {
+      delete UE.plugins[thePlugins].editdom;
+    }
+  };
+  dialog.onok = function (){
+    if( $G('orgname').value == '') {
+      alert('控件名称不能为空');
+      return false;
+    }
+    var gTimestamp = new Date().getTime();
+    var orgID = $id('orgID').value;
+    var name = orgID + gTimestamp;
+    var gTitle = $id('orgname').value.replace(/\"/g,"&quot;");
+    var obj = {
+      orgname : $id('orgname').value || '',
+      orgID : $id('orgID').value || '',
+      defaultValue : $id('defaultValue').value  || '',
+      minDate : $id('minDate').value ||'',
+      maxDate : $id('maxDate').value ||'',
+      defaultValue_1 : $id('defaultValue_1').value  || '',
+      minDate_1 : $id('minDate_1').value ||'',
+      maxDate_1 : $id('maxDate_1').value ||'',
+      textType : $id('textType').value  || '',
+      width : $id('width').value  || 20,
+      fontSize : $id('fontSize').value  || 12,
+      color : $id('color').value  || '#3c3c3c',
+    };
+    var objStr = JSON.stringify(obj).replace(/\"/g,'\'');
+    var style = 'min-height:16px;min-width:'+obj.width+'px;font-size:'+obj.fontSize+'px;color:'+obj.color+';';
+    var placeStyle = 'width:auto'; // 避免ueditor去除样式
+    if( !oNode ) {
+      try {
+        //{|- 使用边界，防止用户删除了span标签，程序处理要把边界替换为空
+        var html = '<span style="'+placeStyle+'"><span class="oak-field" style="'+placeStyle+'" oakplugin="'+thePlugins+'" id="'+obj.orgID+'" title="'+gTitle+'" obj="'+objStr+'" contenteditable="false">';
+        html += '<span class="oak-field oak-left" style="'+placeStyle+'" contenteditable="false">[</span>'
+        html += '<input class="oak-field oak-field-value" style="'+style+'" value="'+obj.defaultValue+'" onclick="WdatePicker({dateFmt:\''+obj.textType+'\',vel:\''+name+'\',minDate:\''+obj.minDate_1+'\',maxDate:\''+obj.maxDate_1+'\'})" />';
+        html += '<input type="hidden" id="'+name+'" value="'+obj.defaultValue_1+'"/>';
+        html += '<span class="oak-field oak-right" style="'+placeStyle+'" contenteditable="false">]</span>';
+        html += '</span></span>';
+        editor.execCommand('insertHtml',html);
+        return true ;
+      } catch ( e ) {
+        try {
+          editor.execCommand('error');
+        } catch ( e ) {
+          alert('控件异常，请到【橡树信息】反馈或寻求帮助！');
+        }
+        return false;
+      }
+    } else {
+      //oNode.setAttribute('title',gTitle);
+      oNode.setAttribute('obj',objStr)
+      oNode.innerHTML = '<span><span class="oak-field oak-left" style="'+placeStyle+'" contenteditable="false">[</span>'
+        + '<input class="oak-field oak-field-value" style="'+style+'" value="'+obj.defaultValue+'" onclick="WdatePicker({dateFmt:\''+obj.textType+'\',vel:\''+name+'\',minDate:\''+obj.minDate_1+'\',maxDate:\''+obj.maxDate_1+'\'})" />'
+        + '<input type="hidden" id="'+name+'" value="'+obj.defaultValue_1+'"/>'
+        + '<span class="oak-field oak-right" style="'+placeStyle+'" contenteditable="false">]</span></span>';
+      delete UE.plugins[thePlugins].editdom;
+      return true;
+    }
+  };
+</script>
+</body>
+</html>
