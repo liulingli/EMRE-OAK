@@ -20,7 +20,6 @@
      * window.UEDITOR_HOME_URL = "/xxxx/xxxx/";
      */
     var URL = window.UEDITOR_HOME_URL || getUEBasePath();
-
     /**
      * 配置项主体。注意，此处所有涉及到路径的配置别遗漏URL变量。
      */
@@ -30,7 +29,7 @@
         UEDITOR_HOME_URL: URL
 
         // 服务器统一请求接口路径
-        , serverUrl: URL + "jsp/controller.jsp",
+        , serverUrl: URL,
 
           //ueditor给编辑区域的iframe引入一个js文件
           iframeScriptUrl:'../../../public/My97DatePicker/WdatePicker.js',
@@ -416,7 +415,7 @@
 			s:      [],
 			section:[],
 			small:  [],
-			span:   ['class', 'style','contenteditable','oakplugin','id','title','obj'],
+			span:   ['class', 'style','contenteditable','oakplugin','id','title','obj','onclick','onfous','onblur'],
 			sub:    ['class', 'style'],
 			sup:    ['class', 'style'],
 			strong: ['class', 'style'],

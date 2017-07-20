@@ -203,8 +203,17 @@ UE.plugins['checkbox'] = function () {
     }
   } );
   popup.render();
-  //绑定鼠标经过控件
-  me.addListener( 'mouseover', function( t, evt ) {
+
+  /**
+   * 绑定鼠标经过控件
+   * 获取当前所处模式 ['设计模式','编辑模式','只读模式','审阅模式']
+   * 设计模式下才显示popup
+   **/
+  me.addListener('mouseover', function( t, evt ) {
+    var pattern = me.body.getAttribute('pattern');  //获取当前模式
+    if(pattern && pattern != 'design'){
+      return;
+    }
     evt = evt || window.event;
     var el = evt.target || evt.srcElement;
     var target = isParentTarget(el,'oakplugin');
@@ -227,6 +236,20 @@ UE.plugins['checkbox'] = function () {
       popup.hide();
     }
   });
+
+  /**
+   * 绑定click事件，只读模式下不可更改复选框/单选框的值
+   */
+  me.addListener('click',function(t,evt){
+    var pattern = me.body.getAttribute('pattern');  //获取当前模式
+    evt = evt || window.event;
+    var el = evt.target || evt.srcElement;
+    var target = isParentTarget(el,'oakplugin');
+    if(target && pattern == 'readonly'){
+      evt.preventDefault(); //阻止默认行为
+      return false;
+    }
+  })
 };
 
 baidu.editor.ui.checkbox = function(editor,list,title){
@@ -351,8 +374,17 @@ UE.plugins['radio'] = function () {
     }
   } );
   popup.render();
-  //绑定鼠标经过控件
+
+  /**
+   * 绑定鼠标经过控件
+   * 获取当前所处模式 ['设计模式','编辑模式','只读模式','审阅模式']
+   * 设计模式下才显示popup
+   **/
   me.addListener('mouseover', function( t, evt ) {
+    var pattern = me.body.getAttribute('pattern');  //获取当前模式
+    if(pattern && pattern != 'design'){
+      return;
+    }
     evt = evt || window.event;
     var el = evt.target || evt.srcElement;
     var target = isParentTarget(el,'oakplugin');
@@ -498,8 +530,17 @@ UE.plugins['input'] = function () {
     }
   } );
   popup.render();
-  //绑定鼠标经过控件
-  me.addListener( 'mouseover', function( t, evt ) {
+
+  /**
+   * 绑定鼠标经过控件
+   * 获取当前所处模式 ['设计模式','编辑模式','只读模式','审阅模式']
+   * 设计模式下才显示popup
+   **/
+  me.addListener('mouseover', function( t, evt ) {
+    var pattern = me.body.getAttribute('pattern');  //获取当前模式
+    if(pattern && pattern != 'design'){
+      return;
+    }
     evt = evt || window.event;
     var el = evt.target || evt.srcElement;
     var target = isParentTarget(el,'oakplugin');
@@ -646,8 +687,17 @@ UE.plugins['textarea'] = function () {
     }
   } );
   popup.render();
-  //绑定鼠标经过控件
-  me.addListener( 'mouseover', function( t, evt ) {
+
+  /**
+   * 绑定鼠标经过控件
+   * 获取当前所处模式 ['设计模式','编辑模式','只读模式','审阅模式']
+   * 设计模式下才显示popup
+   **/
+  me.addListener('mouseover', function( t, evt ) {
+    var pattern = me.body.getAttribute('pattern');  //获取当前模式
+    if(pattern != 'design'){
+      return;
+    }
     evt = evt || window.event;
     var el = evt.target || evt.srcElement;
     var target = isParentTarget(el,'oakplugin');
@@ -792,8 +842,17 @@ UE.plugins['select'] = function () {
     }
   } );
   popup.render();
-  //绑定鼠标经过控件
-  me.addListener( 'mouseover', function( t, evt ) {
+
+  /**
+   * 绑定鼠标经过控件
+   * 获取当前所处模式 ['设计模式','编辑模式','只读模式','审阅模式']
+   * 设计模式下才显示popup
+   **/
+  me.addListener('mouseover', function( t, evt ) {
+    var pattern = me.body.getAttribute('pattern');  //获取当前模式
+    if(pattern && pattern != 'design'){
+      return;
+    }
     evt = evt || window.event;
     var el = evt.target || evt.srcElement;
     var target = isParentTarget(el,'oakplugin');
@@ -818,11 +877,14 @@ UE.plugins['select'] = function () {
 
   //绑定鼠标单击控件  实现自定义下拉列表
   me.addListener('click', function( t, evt ) {
+    var pattern = me.body.getAttribute('pattern');  //获取当前模式
+    if(pattern && pattern == 'readonly'){
+      return;
+    }
     evt = evt || window.event;
     var el = evt.target || evt.srcElement;
     var target = isParentTarget(el,'oakplugin');
     var parentSelect = isParentTarget(el,'data-type');
-
     //隐藏所有下拉选框
     var body = getBodyTarget(el);
     try{
@@ -836,7 +898,7 @@ UE.plugins['select'] = function () {
        return ;
     }
 
-    var model = eval("("+(target.getAttribute('obj')||{})+")");
+    var model = eval("("+(target.getAttribute('obj'))+")")||{};
     var selectValue = model.defaultValue;
     var bindData = model.bindData||[];
     if(model.type != 'select'||bindData.length==0){
@@ -992,8 +1054,17 @@ UE.plugins['timeinput'] = function () {
     }
   } );
   popup.render();
-  //绑定鼠标经过控件
-  me.addListener( 'mouseover', function( t, evt ) {
+
+  /**
+   * 绑定鼠标经过控件
+   * 获取当前所处模式 ['设计模式','编辑模式','只读模式','审阅模式']
+   * 设计模式下才显示popup
+   **/
+  me.addListener('mouseover', function( t, evt ) {
+    var pattern = me.body.getAttribute('pattern');  //获取当前模式
+    if(pattern && pattern != 'design'){
+      return;
+    }
     evt = evt || window.event;
     var el = evt.target || evt.srcElement;
     var target = isParentTarget(el,'oakplugin');
@@ -1014,12 +1085,17 @@ UE.plugins['timeinput'] = function () {
       }
     }
   });
-  //绑定鼠标单击控件
-  me.addListener( 'click', function( t, evt ) {
+  var body = me.body;
+  //绑定鼠标单击控件 绑定在dom元素上
+  me.addListener('click', function(t, evt ) {
     evt = evt || window.event;
     var el = evt.target || evt.srcElement;
     var target = isParentTarget(el,'oakplugin');
-   // var obj = target.getAttribute('obj');
+    var bindClick = el.getAttribute('bindclick');
+    if(target && bindClick){
+       var obj = eval("("+target.getAttribute('obj')+")");
+
+    }
   });
 };
 

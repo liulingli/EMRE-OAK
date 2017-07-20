@@ -112,8 +112,6 @@ function isParentTarget(target,attr){
     return false;
   }
 }
-document.addEventListener("click",function(e){
 
-})
 
 

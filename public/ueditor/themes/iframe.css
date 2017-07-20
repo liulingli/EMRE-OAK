@@ -1,17 +1,29 @@
 /*可以在这里添加你自己的css*/
+.oak-field[oakplugin]{
+    background:#f0f8ff;
+}
+.oak-field[oakplugin]:hover{
+    background:#add8e6;
+}
 .oak-left{
     color:blue;
     padding:0 2px;
+    background:inherit;
 }
 .oak-right{
     color:blue;
     padding:0 2px;
+    background:inherit;
 }
 .oak-field-value{
     padding:0 3px;
     margin-left:-3px;
     margin-right:-3px;
     display:inline-block;
+    background:inherit;
+}
+input.oak-field-value{
+    border:none;
 }
 .oak-field-value:focus{
     outline: none;

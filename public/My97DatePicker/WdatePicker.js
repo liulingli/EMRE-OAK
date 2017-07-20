@@ -294,6 +294,7 @@ var $dp, WdatePicker;
     }
   }
   function N($) {
+    //console.log($.innerWidth)
     $ = $ || V;
     var B = $[O],
       A = ($.innerWidth) ? $.innerWidth : (B[J] && B[J].clientWidth) ? B[J].clientWidth : B.body.offsetWidth,
@@ -448,6 +449,7 @@ var $dp, WdatePicker;
       if (!$dp.eCont) C()
     }
     function C() {
+      //console.log($dp)
       var F = $dp.position.left,
         B = $dp.position.top,
         C = $dp.el;

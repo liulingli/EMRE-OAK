@@ -146,7 +146,7 @@
             <td><input type="color" id="color" value="#3c3c3c"/></td>
             <td colspan="2">
                 <input type="text" id="width" value="20" style="width:40px;"/> &
-                <input type="text" id="fontSize" value="12" style="width:40px;"/>px
+                <input type="text" id="fontSize" value="16" style="width:40px;"/>px
             </td>
         </tr>
     </table>
@@ -212,16 +212,17 @@
       width : $id('width').value  || 20,
       fontSize : $id('fontSize').value  || 12,
       color : $id('color').value  || '#3c3c3c',
+      vel : name
     };
     var objStr = JSON.stringify(obj).replace(/\"/g,'\'');
-    var style = 'min-height:16px;min-width:'+obj.width+'px;font-size:'+obj.fontSize+'px;color:'+obj.color+';';
+    var style = 'width:100px;min-height:16px;min-width:'+obj.width+'px;font-size:'+obj.fontSize+'px;color:'+obj.color+';';
     var placeStyle = 'width:auto'; // 避免ueditor去除样式
     if( !oNode ) {
       try {
         //{|- 使用边界，防止用户删除了span标签，程序处理要把边界替换为空
         var html = '<span style="'+placeStyle+'"><span class="oak-field" style="'+placeStyle+'" oakplugin="'+thePlugins+'" id="'+obj.orgID+'" title="'+gTitle+'" obj="'+objStr+'" contenteditable="false">';
         html += '<span class="oak-field oak-left" style="'+placeStyle+'" contenteditable="false">[</span>'
-        html += '<input class="oak-field oak-field-value" style="'+style+'" value="'+obj.defaultValue+'" onclick="WdatePicker({dateFmt:\''+obj.textType+'\',vel:\''+name+'\',minDate:\''+obj.minDate_1+'\',maxDate:\''+obj.maxDate_1+'\'})" />';
+        html += '<input class="oak-field oak-field-value" style="'+style+'" value="'+obj.defaultValue+'" onclick="if(this.nodeType!=1)return;if(document.body.getAttribute(\'pattern\')==\'readonly\'){this.setAttribute(\'readonly\',\'readonly\');return;}else{this.removeAttribute(\'readonly\');}WdatePicker({dateFmt:\''+obj.textType+'\',vel:\''+name+'\',minDate:\''+obj.minDate_1+'\',maxDate:\''+obj.maxDate_1+'\'})" />';
         html += '<input type="hidden" id="'+name+'" value="'+obj.defaultValue_1+'"/>';
         html += '<span class="oak-field oak-right" style="'+placeStyle+'" contenteditable="false">]</span>';
         html += '</span></span>';
@@ -238,10 +239,10 @@
     } else {
       //oNode.setAttribute('title',gTitle);
       oNode.setAttribute('obj',objStr)
-      oNode.innerHTML = '<span><span class="oak-field oak-left" style="'+placeStyle+'" contenteditable="false">[</span>'
-        + '<input class="oak-field oak-field-value" style="'+style+'" value="'+obj.defaultValue+'" onclick="WdatePicker({dateFmt:\''+obj.textType+'\',vel:\''+name+'\',minDate:\''+obj.minDate_1+'\',maxDate:\''+obj.maxDate_1+'\'})" />'
+      oNode.innerHTML = '<span class="oak-field oak-left" style="'+placeStyle+'" contenteditable="false">[</span>'
+        + '<input class="oak-field oak-field-value" style="'+style+'" value="'+obj.defaultValue+'" onclick="if(document.body.getAttribute(\'pattern\')==\'readonly\'){return;}WdatePicker({dateFmt:\''+obj.textType+'\',vel:\''+name+'\',minDate:\''+obj.minDate_1+'\',maxDate:\''+obj.maxDate_1+'\'})" />'
         + '<input type="hidden" id="'+name+'" value="'+obj.defaultValue_1+'"/>'
-        + '<span class="oak-field oak-right" style="'+placeStyle+'" contenteditable="false">]</span></span>';
+        + '<span class="oak-field oak-right" style="'+placeStyle+'" contenteditable="false">]</span>';
       delete UE.plugins[thePlugins].editdom;
       return true;
     }

@@ -1,0 +1,7 @@
+[
+  {"VALUE":"吃饭","TEXT":"吃饭","SELECTED":false},
+  {"VALUE":"睡觉","TEXT":"睡觉","SELECTED":true},
+  {"VALUE":"打豆豆","TEXT":"打豆豆","SELECTED":true},
+  {"VALUE":"谁是豆豆","TEXT":"谁是豆豆","SELECTED":false},
+  {"VALUE":"豆豆是谁","TEXT":"豆豆是谁","SELECTED":false}
+]

@@ -7,7 +7,7 @@ import classNames from 'classnames';
 import Tab from './common/tab';
 
 export default class Ueditor extends Component {
-  type = ['设计模式','编辑模式','按钮模式','只读模式'];
+  type = ["设计模式","编辑模式","只读模式","审阅模式"];
   componentWillMount(){
     this.state = {
       editor : undefined,
@@ -42,10 +42,56 @@ export default class Ueditor extends Component {
      });
      tablePop.showAnchor(e.target);
   }
+  /**
+   * @method 切换视图模式
+   * @param index
+   */
   onClick = (index) =>{
     this.setState({
       index : index
-    })
+    });
+    let type = this.type[index];
+    switch (type){
+      case "设计模式" : this.designPattern();break;
+      case "编辑模式" : this.editPattern();break;
+      case "只读模式" : this.readonlyPattern();break;
+      case "审阅模式" : this.reviewPattern();break;
+    }
+  }
+  /**
+   * @method 设计模式
+   */
+  designPattern = ()=> {
+    let editor = this.state.editor;
+    editor.body.setAttribute('pattern','design');
+    editor.setEnabled();
+  }
+
+  /**
+   * @method 编辑模式
+   */
+  editPattern = ()=> {
+    let editor = this.state.editor;
+    editor.body.setAttribute('pattern','edit');
+    editor.setDisabled();
+  }
+
+  /**
+   * @method 只读模式
+   */
+  readonlyPattern = ()=> {
+    let editor = this.state.editor;
+    editor.body.setAttribute('pattern','readonly');
+    editor.setDisabled();
+  }
+
+  /**
+   * @method 审阅模式
+   */
+  reviewPattern = ()=> {
+    let editor = this.state.editor;
+    editor.body.setAttribute('pattern','review');
+    editor.setEnabled();
   }
   render () {
     let {id,style} = this.props;
@@ -54,7 +100,7 @@ export default class Ueditor extends Component {
       <div className="ueditor-oak">
         <div className="ueditor-toobar-oak">
           <Tab
-            tabs={["编辑","插入","病历控件",'编辑模式']}
+            tabs={["编辑","插入","病历控件",'视图模式']}
             fixed={<li className="tab-list-item theme">EMRA-OAK</li>}
           >
             <div className="edui-default">

@@ -4,826 +4,22 @@
     <bookmark url="file://$PROJECT_DIR$/public/ueditor/ueditor.all.js" description="draggable: true," line="26967" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f8aa5de-f21b-4859-8330-f82e5864ad59" name="默认的" comment="新建">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/skin/datePicker.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/skin/default/img.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/skin/whyGreen/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/skin/whyGreen/img.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/开发包/skin/datePicker.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/开发包/skin/default/img.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/开发包/skin/whyGreen/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/开发包/skin/whyGreen/img.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/images/alignicon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/images/alignicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/images/file-icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/images/file-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/images/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/images/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/images/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/images/progress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/images/success.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/images/success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/background/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/background/images/success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/charts/images/charts0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/charts/images/charts1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/charts/images/charts2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/charts/images/charts3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/charts/images/charts4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/charts/images/charts5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/emotion/images/0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/emotion/images/bface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/emotion/images/cface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/emotion/images/fface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/emotion/images/jxface2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/emotion/images/tface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/emotion/images/wface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/emotion/images/yface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/image/images/alignicon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/image/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/image/images/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/image/images/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/image/images/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/image/images/progress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/image/images/success.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/image/images/success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/images/addimg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/images/brush.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/images/delimg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/images/delimgH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/images/empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/images/emptyH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/images/eraser.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/images/redo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/images/redoH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/images/scale.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/images/scaleH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/images/size.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/images/undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/images/undoH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/table/dragicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/template/images/bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/template/images/pre0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/template/images/pre1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/template/images/pre2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/template/images/pre3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/template/images/pre4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/video/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/video/images/center_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/video/images/file-icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/video/images/file-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/video/images/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/video/images/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/video/images/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/video/images/left_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/video/images/none_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/video/images/progress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/video/images/right_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/video/images/success.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/video/images/success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/wordimage/imageUploader.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/imgs/checkbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/imgs/controllibrary.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/imgs/input.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/imgs/radio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/imgs/select.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/imgs/textarea.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/imgs/timeinput.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/jsp/lib/commons-codec-1.9.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/jsp/lib/commons-fileupload-1.3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/jsp/lib/commons-io-2.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/jsp/lib/json.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/jsp/lib/ueditor-1.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/images/addimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/images/alldeletebtnhoverskin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/images/alldeletebtnupskin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/images/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/images/button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/images/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/images/deletedisable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/images/deleteenable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/images/listbackground.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/images/localimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/images/music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/images/rotateleftdisable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/images/rotateleftenable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/images/rotaterightdisable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/images/rotaterightenable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/images/upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/zh-cn/images/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/zh-cn/images/localimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/zh-cn/images/music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/zh-cn/images/upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/arrow_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/arrow_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/button-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/cancelbutton.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/charts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/cursor_h.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/cursor_h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/cursor_v.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/cursor_v.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/dialog-title-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/filescan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/highlighted.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/icons-all.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/loaderror.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/lock.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/neweditor-tab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/pagebreak.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/scale.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/sortable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/spacer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/sparator_v.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/table-cell-align.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/tangram-colorpicker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/toolbar_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/unhighlighted.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/videologo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/word.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/images/wordpaste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/video-js/font/vjs.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/video-js/font/vjs.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/video-js/font/vjs.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/video-js/video-js.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/webuploader/Uploader.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kf-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/scrollbar/custom/bar-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/scrollbar/custom/bar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/scrollbar/custom/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/scrollbar/custom/bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/scrollbar/custom/btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/scrollbar/custom/down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/scrollbar/custom/top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/scrollbar/custom/up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/scrollbar/edit/bar-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/scrollbar/edit/bar-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/scrollbar/edit/bar-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/scrollbar/edit/thumb-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/scrollbar/edit/thumb-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/scrollbar/edit/thumb-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/aleph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/bbbk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/beth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/circleds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/complement.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/daleth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/ell.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/eth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/finv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/game.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/gimel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/hbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/hslash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/im.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/mho.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/partial.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/re.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/alphabetic/wp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/circlearrowleft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/circlearrowright.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/curvearrowleft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/curvearrowright.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/downarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/downdownarrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/downharpoonleft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/downharpoonright.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/gets.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/leftarrowtail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/leftharpoondown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/leftharpoonup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/leftleftarrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/leftrightarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/leftrightarrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/leftrightharpoons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/leftrightsquigarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/longleftarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/longleftrightarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/longrightarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/looparrowleft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/looparrowright.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/multimap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/nearrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/nleftarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/nrightarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/nwarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/rightarrowtail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/rightharpoondown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/rightharpoonup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/rightleftarrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/rightleftharpoons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/rightrightarrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/rightsquigarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/searrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/swarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/to.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/twoheadleftarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/twoheadrightarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-downarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-leftarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-leftrightarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-lftarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-lleftarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-longleftarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-longleftrightarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-longrightarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-lsh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-nleftarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-nleftrightarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-nrightarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-rightarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-rrightarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-rsh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-uparrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/u-updownarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/uparrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/updownarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/upharpoonleft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/upharpoonright.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/arrow/upuparrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/brackets/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/brackets/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/brackets/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/brackets/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/button/brackets.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/button/down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/button/frac.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/button/fx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/button/int.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/button/lim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/button/open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/button/script.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/button/sin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/button/sqrt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/button/sum.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/button/tick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/button/up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/g.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/i.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/j.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/k.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/m.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/p.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/q.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/t.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/u.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/v.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/y.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/bb/z.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/g.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/i.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/j.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/k.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/m.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/p.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/q.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/t.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/u.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/v.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/y.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/cal/z.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/g.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/i.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/j.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/k.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/m.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/p.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/q.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/t.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/u.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/ua.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/ub.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/uc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/ud.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/ue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/uf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/ug.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/uh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/ui.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/uj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/uk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/ul.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/um.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/un.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/uo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/uq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/ur.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/us.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/ut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/uu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/uv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/uw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/ux.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/uy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/uz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/v.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/y.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/frak/z.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/beta.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/chi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/delta.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/epsilon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/eta.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/gamma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/iota.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/kappa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/lambda.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/mu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/nu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/omega.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/omicron.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/phi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/pi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/psi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/rho.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/sigma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/tau.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/theta.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/upsilon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/xi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/lower/zeta.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/misc/digamma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/misc/varepsilon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/misc/varkappa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/misc/varphi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/misc/varpi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/misc/varrho.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/misc/varsigma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/misc/vartheta.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/beta.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/chi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/delta.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/epsilon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/eta.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/gamma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/iota.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/kappa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/lambda.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/mu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/nu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/omega.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/omicron.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/phi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/pi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/psi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/rho.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/sigma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/tau.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/theta.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/upsilon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/xi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/greek/upper/zeta.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/aleph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/approx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/ast.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/baifenhao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/because.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/beth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/blacksquare.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/cap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/cdot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/circ.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/cong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/cup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/ddots.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/div.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/downarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/eq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/equiv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/exists.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/forall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/geq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/gets.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/gg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/gt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/in.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/infty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/leftrightarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/leq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/ll.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/lt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/mp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/neg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/nexists.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/ni.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/partial.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/pm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/propto.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/sim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/simeq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/surd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/tanhao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/therefore.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/times.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/to.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/uparrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/varnothing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/math/vdots.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/gneqq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/gnsim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/lneqq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/lnsim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/nbdash-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/ncong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/neq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/nequiv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/nexists.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/ngeq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/ngtr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/nleq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/nless.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/nmid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/notin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/nparallel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/nprec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/nsim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/nsubseteq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/nsucc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/nsupseteq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/ntriangleleft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/ntrianglelefteq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/ntriangleright.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/ntrianglerighteq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/nvdash-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/nvdash-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/nvdash-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/nvdash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/precnsim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/subsetneq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/succnsim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/not/supsetneq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/g.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/i.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/j.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/k.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/m.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/p.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/q.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/t.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/u.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/ua.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/ub.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/uc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/ud.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/ue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/uf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/ug.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/uh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/ui.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/uj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/uk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/ul.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/um.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/un.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/uo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/uq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/ur.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/us.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/ut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/uu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/uv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/uw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/ux.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/uy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/uz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/v.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/y.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/char/rm/z.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/frac/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/frac/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/frac/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/frac/c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/frac/c2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/frac/c4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/frac/c5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/func/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/func/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/func/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/func/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/func/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/func/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/func/c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/func/c2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/func/c3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/int/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/int/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/int/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/int/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/int/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/int/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/large/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/large/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/large/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/other.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/script/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/script/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/script/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/script/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/script/c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/script/c2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/script/c3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/sqrt/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/sqrt/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/sqrt/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/sqrt/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/sqrt/c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/sqrt/c2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/ys/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/ys/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/images/toolbar/ys/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/theme/default/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/theme/default/images/down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/theme/default/images/open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/theme/default/images/up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/resource/KF_AMS_BB.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/resource/KF_AMS_CAL.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/resource/KF_AMS_FRAK.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/resource/KF_AMS_MAIN.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/resource/KF_AMS_ROMAN.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/EMRE-OAK.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/.idea/My97DatePicker.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/My97DatePicker.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/WdatePicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/calendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/lang/zh-tw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/skin/WdatePicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/skin/default/datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/skin/whyGreen/datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/开发包/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/开发包/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/开发包/lang/zh-tw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/开发包/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/开发包/skin/WdatePicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/开发包/skin/default/datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/My97DatePicker/开发包/skin/whyGreen/datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/anchor/anchor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/attachment.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/attachment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/attachment/attachment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/background/background.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/background/background.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/background/background.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/charts/chart.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/charts/charts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/charts/charts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/charts/charts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/emotion/emotion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/emotion/emotion.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/emotion/emotion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/gmap/gmap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/help/help.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/help/help.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/help/help.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/image/image.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/image/image.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/image/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/insertframe/insertframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/internal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/link/link.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/map/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/map/show.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/music/music.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/music/music.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/music/music.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/checkbox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/controllibrary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/input.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/oak-form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/radio.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/select.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/textarea.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/timeinput.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/preview/preview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/scrawl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/scrawl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/scrawl/scrawl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/searchreplace/searchreplace.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/searchreplace/searchreplace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/snapscreen/snapscreen.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/spechars/spechars.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/spechars/spechars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/table/edittable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/table/edittable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/table/edittable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/table/edittd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/table/edittip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/template/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/template/template.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/template/template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/template/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/video/video.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/video/video.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/video/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/webapp/webapp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/wordimage/tangram.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/wordimage/wordimage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/wordimage/wordimage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/jsp/config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/jsp/controller.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/en/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/lang/zh-cn/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/css/ueditor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/css/ueditor.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/dialogbase.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/themes/iframe.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/SyntaxHighlighter/shCore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/codemirror/codemirror.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/codemirror/codemirror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/adapters/mootools-adapter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/adapters/prototype-adapter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/adapters/standalone-framework.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/highcharts-more.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/highcharts-more.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/highcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/highcharts.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/annotations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/annotations.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/canvas-tools.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/canvas-tools.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/data.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/drilldown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/drilldown.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/exporting.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/funnel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/funnel.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/heatmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/heatmap.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/map.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/no-data-to-display.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/themes/dark-blue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/themes/dark-green.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/themes/gray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/themes/grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/highcharts/themes/skies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/jquery-1.10.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/jquery-1.10.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/jquery-1.10.2.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/video-js/font/vjs.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/video-js/video-js.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/video-js/video-js.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/video-js/video.dev.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/video-js/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/webuploader/webuploader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/webuploader/webuploader.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/webuploader/webuploader.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/webuploader/webuploader.flashonly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/webuploader/webuploader.flashonly.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/webuploader/webuploader.html5only.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/webuploader/webuploader.html5only.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/webuploader/webuploader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/webuploader/webuploader.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/webuploader/webuploader.withoutimage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/xss.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/zeroclipboard/ZeroClipboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/addKityFormulaDialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/defaultFilterFix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/getKfContent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityFormulaDialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/styles/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/styles/page.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/styles/scrollbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/styles/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/theme/default/fui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/assets/theme/default/fui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/js/jquery-1.9.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/js/kity-formula-parser.all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/js/kity-formula-render.all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/js/kityformula-editor.all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/js/kitygraph.all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/ueditor.all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/ueditor.all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/ueditor.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/ueditor.oak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/ueditor.parse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/ueditor.parse.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/ueditor.plugin.oak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/panel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/emreOak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ueditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.prod.config.js" />
+    <list default="true" id="7f8aa5de-f21b-4859-8330-f82e5864ad59" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/ajaxData/checkbox.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/ajaxData/radio.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/ajaxData/select.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/My97DatePicker/WdatePicker.js" afterPath="$PROJECT_DIR$/public/My97DatePicker/WdatePicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bundle.js" afterPath="$PROJECT_DIR$/public/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/checkbox.html" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/checkbox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/input.html" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/input.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/timeinput.html" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/timeinput.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/themes/iframe.css" afterPath="$PROJECT_DIR$/public/ueditor/themes/iframe.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/ueditor.all.js" afterPath="$PROJECT_DIR$/public/ueditor/ueditor.all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/ueditor.config.js" afterPath="$PROJECT_DIR$/public/ueditor/ueditor.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/ueditor.oak.js" afterPath="$PROJECT_DIR$/public/ueditor/ueditor.oak.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/ueditor.plugin.oak.js" afterPath="$PROJECT_DIR$/public/ueditor/ueditor.plugin.oak.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ueditor.js" afterPath="$PROJECT_DIR$/src/components/ueditor.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -838,12 +34,113 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="iframe.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ueditor/themes/iframe.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="126">
+              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ueditor.all.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.all.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="8202" column="21" lean-forward="false" selection-start-line="8202" selection-start-column="16" selection-end-line="8202" selection-end-column="21" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#339860#350780#0" expanded="false" />
+                <marker date="1500521439503" expanded="true" signature="355291:355304" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="359834:359851" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="365172:365190" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="459023:459049" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="605367:605497" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="826177:826272" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="863028:863104" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="875263:875281" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="875328:875370" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="875455:875485" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="893923:893995" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="903882:903908" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="904104:904195" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="904452:904527" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="904714:904729" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="904949:905001" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="916961:917050" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="981708:981780" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="1000789:1000801" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="1002988:1003012" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="1028081:1028087" ph=" " />
+                <marker date="1500521439503" expanded="true" signature="1028087:1028093" ph=" " />
+                <marker date="1500521439503" expanded="true" signature="1028197:1028203" ph=" " />
+                <marker date="1500521439503" expanded="true" signature="1028203:1028209" ph=" " />
+                <marker date="1500521439503" expanded="true" signature="1028313:1028319" ph=" " />
+                <marker date="1500521439503" expanded="true" signature="1028319:1028325" ph=" " />
+                <marker date="1500521439503" expanded="true" signature="1030494:1030500" ph=" " />
+                <marker date="1500521439503" expanded="true" signature="1030500:1030506" ph=" " />
+                <marker date="1500521439503" expanded="true" signature="1031473:1031479" ph=" " />
+                <marker date="1500521439503" expanded="true" signature="1031479:1031485" ph=" " />
+                <marker date="1500521439503" expanded="true" signature="1031625:1031631" ph=" " />
+                <marker date="1500521439503" expanded="true" signature="1031631:1031637" ph=" " />
+                <marker date="1500521439503" expanded="true" signature="1031779:1031785" ph=" " />
+                <marker date="1500521439503" expanded="true" signature="1031785:1031791" ph=" " />
+                <marker date="1500521439503" expanded="true" signature="1031935:1031941" ph=" " />
+                <marker date="1500521439503" expanded="true" signature="1031941:1031947" ph=" " />
+                <marker date="1500521439503" expanded="true" signature="1032757:1032768" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="1036705:1036718" ph="..." />
+                <marker date="1500521439503" expanded="true" signature="1037095:1037131" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkbox.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/checkbox.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="331" column="126" lean-forward="false" selection-start-line="331" selection-start-column="126" selection-end-line="331" selection-end-column="126" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1500547578973" expanded="true" signature="4856:4862" ph=" " />
+                <marker date="1500547578973" expanded="true" signature="5633:5639" ph=" " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkbox.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/ajaxData/checkbox.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ueditor.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="select.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/select.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="270" column="57" lean-forward="true" selection-start-line="270" selection-start-column="4" selection-end-line="270" selection-end-column="57" />
+              <folding>
+                <marker date="1500373561011" expanded="true" signature="10874:10881" ph="..." />
+                <marker date="1500373561011" expanded="true" signature="11572:11579" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -861,36 +158,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>button_body</find>
-      <find>UE.registerUI</find>
-      <find>fontfamily</find>
-      <find>console.log</find>
-      <find>console.log(uiName)</find>
-      <find>new Dia</find>
-      <find>Dialog</find>
-      <find>_iframe</find>
-      <find>Button</find>
-      <find>edui-for-input-1</find>
-      <find>console.log(&quot;btnName:&quot;+btnName)</find>
-      <find>background</find>
-      <find>_edittext</find>
-      <find>input</find>
-      <find>kf-editor-input-box</find>
-      <find>box</find>
-      <find>EditorFactory</find>
       <find>fnParseOptions</find>
       <find>select</find>
       <find>fnAddComboTr</find>
       <find>isParentTarget</find>
       <find>80</find>
       <find>iframe</find>
-      <find>whitList</find>
       <find>editor.execCommand</find>
       <find>addInputRule</find>
       <find>UE.plugins[</find>
       <find>fontsize</find>
       <find>execCommand</find>
       <find>attr</find>
+      <find>keydown</find>
+      <find>&amp;#</find>
+      <find>是否</find>
+      <find>element</find>
+      <find>element(</find>
+      <find>console.log</find>
+      <find>style</find>
+      <find>whitList</find>
+      <find>span</find>
+      <find>click</find>
+      <find>setEnabled</find>
+      <find>WdatePicker</find>
+      <find>U</find>
+      <find>return</find>
+      <find>a</find>
+      <find>$dp.dd.style.left</find>
+      <find>function W</find>
+      <find>ajax</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -937,24 +234,29 @@
         <option value="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityFormulaDialog.html" />
         <option value="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/kityformula/js/kityformula-editor.all.min.js" />
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/textarea.html" />
-        <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/checkbox.html" />
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/radio.html" />
-        <option value="$PROJECT_DIR$/public/ueditor/ueditor.oak.js" />
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/select.html" />
-        <option value="$PROJECT_DIR$/public/ueditor/themes/iframe.css" />
         <option value="$PROJECT_DIR$/public/oak-datepicker.js" />
         <option value="$PROJECT_DIR$/public/My97DatePicker/calendar.js" />
-        <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/input.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/oak-form.css" />
         <option value="$PROJECT_DIR$/public/ueditor/ueditor.parse.js" />
-        <option value="$PROJECT_DIR$/public/ueditor/ueditor.plugin.oak.js" />
-        <option value="$PROJECT_DIR$/public/ueditor/ueditor.config.js" />
-        <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/timeinput.html" />
-        <option value="$PROJECT_DIR$/public/ueditor/ueditor.all.js" />
         <option value="$PROJECT_DIR$/src/styles/app.scss" />
-        <option value="$PROJECT_DIR$/src/components/ueditor.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/ueditor/ueditor.all.js" />
+        <option value="$PROJECT_DIR$/src/components/ueditor.js" />
+        <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/input.html" />
+        <option value="$PROJECT_DIR$/public/ueditor/ueditor.oak.js" />
+        <option value="$PROJECT_DIR$/public/My97DatePicker/WdatePicker.js" />
+        <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/timeinput.html" />
+        <option value="$PROJECT_DIR$/public/ueditor/ueditor.plugin.oak.js" />
+        <option value="$PROJECT_DIR$/public/ueditor/themes/iframe.css" />
+        <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/checkbox.json" />
+        <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/ajaxData/radio.json" />
+        <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/ajaxData/select.json" />
+        <option value="$PROJECT_DIR$/public/ueditor/ueditor.config.js" />
+        <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/ajaxData/checkbox.json" />
+        <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/checkbox.html" />
       </list>
     </option>
   </component>
@@ -991,7 +293,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1130,12 +431,155 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="EMRE-OAK">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="EMRE-OAK">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="components">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="EMRE-OAK">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="public">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="EMRE-OAK">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="public">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ueditor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="EMRE-OAK">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="public">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ueditor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dialogs">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="EMRE-OAK">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="public">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ueditor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dialogs">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="oak-form">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="EMRE-OAK">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="public">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ueditor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dialogs">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="oak-form">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajaxData">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/practice/area-client" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -1144,17 +588,18 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\practice\EMRE-OAK\public\ueditor\third-plugin\kityformula-plugin\kityformula\js" />
-      <recent name="E:\practice\EMRE-OAK\public\ueditor\dialogs\oak-form" />
-      <recent name="E:\practice\EMRE-OAK\EMRE-OAK\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\practice\EMRE-OAK\public" />
       <recent name="E:\practice\EMRE-OAK\public\ueditor\third-party" />
       <recent name="E:\practice\EMRE-OAK\public\ueditor\imgs" />
       <recent name="E:\practice\EMRE-OAK\public\ueditor\dialogs\select" />
       <recent name="E:\practice\EMRE-OAK\public\ueditor\dialogs\radio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\EMRE-OAK\public\ueditor\dialogs\oak-form\ajaxData" />
+      <recent name="E:\practice\EMRE-OAK\public\ueditor\third-plugin\kityformula-plugin\kityformula\js" />
+      <recent name="E:\practice\EMRE-OAK\public\ueditor\dialogs\oak-form" />
+      <recent name="E:\practice\EMRE-OAK\EMRE-OAK\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1310,7 +755,9 @@
       <workItem from="1500270577065" duration="17565000" />
       <workItem from="1500340439115" duration="31984000" />
       <workItem from="1500426962394" duration="21947000" />
-      <workItem from="1500456675920" duration="5000" />
+      <workItem from="1500456675920" duration="944000" />
+      <workItem from="1500513310844" duration="11588000" />
+      <workItem from="1500528161030" duration="12107000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1500454397383</created>
@@ -1319,11 +766,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500454397383</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新建">
+      <created>1500456691691</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500456691691</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177137000" />
+    <option name="totallyTimeSpent" value="201771000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1335,17 +789,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1376" height="754" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18086697" sideWeight="0.3857404" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28998506" sideWeight="0.36382535" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15695067" sideWeight="0.6142596" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25186846" sideWeight="0.6361746" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962631" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39613527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.136876" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2447665" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1377,7 +831,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/public/ueditor/ueditor.all.js</url>
-          <line>26004</line>
+          <line>26015</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
@@ -1386,37 +840,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/template/template.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/panel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1587,20 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/checkbox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1239">
-          <caret line="218" column="24" lean-forward="true" selection-start-line="218" selection-start-column="24" selection-end-line="218" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.oak.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/My97DatePicker/开发包/lang/en.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1616,13 +1025,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/oak-datepicker.js" />
-    <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/select.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2664">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/textarea.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1630,24 +1032,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/input.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="64" column="58" lean-forward="false" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor/themes/iframe.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1665,81 +1053,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.parse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17792">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="369" column="13" lean-forward="false" selection-start-line="369" selection-start-column="5" selection-end-line="369" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1383">
-          <caret line="13910" column="12" lean-forward="false" selection-start-line="13910" selection-start-column="12" selection-end-line="13910" selection-end-column="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#339442#350362#0" expanded="false" />
-            <marker date="1500451189985" expanded="true" signature="354873:354886" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="359416:359433" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="364754:364772" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="458605:458631" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="604949:605079" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="825759:825854" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="862610:862686" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="874845:874863" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="874910:874952" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="875037:875067" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="893505:893577" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="903464:903490" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="903686:903777" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="904034:904109" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="904296:904311" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="904531:904583" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="916543:916632" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="981290:981362" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="1000371:1000383" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="1002570:1002594" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="1027663:1027669" ph=" " />
-            <marker date="1500451189985" expanded="true" signature="1027669:1027675" ph=" " />
-            <marker date="1500451189985" expanded="true" signature="1027779:1027785" ph=" " />
-            <marker date="1500451189985" expanded="true" signature="1027785:1027791" ph=" " />
-            <marker date="1500451189985" expanded="true" signature="1027895:1027901" ph=" " />
-            <marker date="1500451189985" expanded="true" signature="1027901:1027907" ph=" " />
-            <marker date="1500451189985" expanded="true" signature="1030076:1030082" ph=" " />
-            <marker date="1500451189985" expanded="true" signature="1030082:1030088" ph=" " />
-            <marker date="1500451189985" expanded="true" signature="1031055:1031061" ph=" " />
-            <marker date="1500451189985" expanded="true" signature="1031061:1031067" ph=" " />
-            <marker date="1500451189985" expanded="true" signature="1031207:1031213" ph=" " />
-            <marker date="1500451189985" expanded="true" signature="1031213:1031219" ph=" " />
-            <marker date="1500451189985" expanded="true" signature="1031361:1031367" ph=" " />
-            <marker date="1500451189985" expanded="true" signature="1031367:1031373" ph=" " />
-            <marker date="1500451189985" expanded="true" signature="1031517:1031523" ph=" " />
-            <marker date="1500451189985" expanded="true" signature="1031523:1031529" ph=" " />
-            <marker date="1500451189985" expanded="true" signature="1032339:1032350" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="1036287:1036300" ph="..." />
-            <marker date="1500451189985" expanded="true" signature="1036677:1036713" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ueditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1750,25 +1067,194 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/timeinput.html">
+    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.parse.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="212" column="46" lean-forward="true" selection-start-line="212" selection-start-column="46" selection-end-line="212" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.plugin.oak.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="520" column="10" lean-forward="true" selection-start-line="520" selection-start-column="10" selection-end-line="520" selection-end-column="10" />
+        <state relative-caret-position="-17368">
+          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/timeinput.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="224" column="257" lean-forward="false" selection-start-line="224" selection-start-column="257" selection-end-line="224" selection-end-column="257" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/My97DatePicker/WdatePicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-237">
+          <caret line="251" column="12" lean-forward="false" selection-start-line="251" selection-start-column="2" selection-end-line="251" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1500540879884" expanded="true" signature="11095:11115" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.oak.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1017">
+          <caret line="70" column="58" lean-forward="false" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+          <folding>
+            <marker date="1500536819660" expanded="true" signature="4403:4410" ph="..." />
+            <marker date="1500536819660" expanded="true" signature="5025:5032" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ueditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="92" column="46" lean-forward="false" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#62#100#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/ajaxData/radio.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.plugin.oak.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="248" column="36" lean-forward="false" selection-start-line="248" selection-start-column="36" selection-end-line="248" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/ajaxData/select.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/select.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="270" column="57" lean-forward="true" selection-start-line="270" selection-start-column="4" selection-end-line="270" selection-end-column="57" />
+          <folding>
+            <marker date="1500373561011" expanded="true" signature="10874:10881" ph="..." />
+            <marker date="1500373561011" expanded="true" signature="11572:11579" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/themes/iframe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="8202" column="21" lean-forward="false" selection-start-line="8202" selection-start-column="16" selection-end-line="8202" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#339860#350780#0" expanded="false" />
+            <marker date="1500521439503" expanded="true" signature="355291:355304" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="359834:359851" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="365172:365190" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="459023:459049" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="605367:605497" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="826177:826272" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="863028:863104" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="875263:875281" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="875328:875370" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="875455:875485" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="893923:893995" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="903882:903908" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="904104:904195" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="904452:904527" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="904714:904729" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="904949:905001" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="916961:917050" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="981708:981780" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="1000789:1000801" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="1002988:1003012" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="1028081:1028087" ph=" " />
+            <marker date="1500521439503" expanded="true" signature="1028087:1028093" ph=" " />
+            <marker date="1500521439503" expanded="true" signature="1028197:1028203" ph=" " />
+            <marker date="1500521439503" expanded="true" signature="1028203:1028209" ph=" " />
+            <marker date="1500521439503" expanded="true" signature="1028313:1028319" ph=" " />
+            <marker date="1500521439503" expanded="true" signature="1028319:1028325" ph=" " />
+            <marker date="1500521439503" expanded="true" signature="1030494:1030500" ph=" " />
+            <marker date="1500521439503" expanded="true" signature="1030500:1030506" ph=" " />
+            <marker date="1500521439503" expanded="true" signature="1031473:1031479" ph=" " />
+            <marker date="1500521439503" expanded="true" signature="1031479:1031485" ph=" " />
+            <marker date="1500521439503" expanded="true" signature="1031625:1031631" ph=" " />
+            <marker date="1500521439503" expanded="true" signature="1031631:1031637" ph=" " />
+            <marker date="1500521439503" expanded="true" signature="1031779:1031785" ph=" " />
+            <marker date="1500521439503" expanded="true" signature="1031785:1031791" ph=" " />
+            <marker date="1500521439503" expanded="true" signature="1031935:1031941" ph=" " />
+            <marker date="1500521439503" expanded="true" signature="1031941:1031947" ph=" " />
+            <marker date="1500521439503" expanded="true" signature="1032757:1032768" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="1036705:1036718" ph="..." />
+            <marker date="1500521439503" expanded="true" signature="1037095:1037131" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/ajaxData/checkbox.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/checkbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="331" column="126" lean-forward="false" selection-start-line="331" selection-start-column="126" selection-end-line="331" selection-end-column="126" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1500547578973" expanded="true" signature="4856:4862" ph=" " />
+            <marker date="1500547578973" expanded="true" signature="5633:5639" ph=" " />
+          </folding>
         </state>
       </provider>
     </entry>

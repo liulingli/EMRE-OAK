@@ -109,24 +109,50 @@
         });
       }
       /*组合checkbox*/
-      function fnParseOptions(gName,gChecked){
-        var oTable = document.getElementById('options_table');
-        var nTr = oTable.getElementsByTagName('tr'),
-            trLength = nTr.length,
-            html="";
-        for(var i=0;i<trLength;i++){
-          var inputs = nTr[i].getElementsByTagName('input');
-
-          if(inputs.length>0){
-            if(!inputs[1].value) continue;
+      function fnParseOptions(gName,gChecked,aynData){
+        var bindData = [];
+            html='';
+        if(aynData){ //动态获取数据
+          for(var i=0;i<aynData.length;i++){
             var sChecked = '';
-            if(inputs[0].checked) sChecked = 'checked';
-            html += '<input class="oak-field" name="'+gName+'" value="'+inputs[1].value+'" '+sChecked+' type="checkbox"/>'+inputs[1].value+'&nbsp;';
-            if(gChecked=='vertical')//竖排
+            if(aynData[i].SELECTED){
+              sChecked = 'checked';
+            }
+            html += '<input class="oak-field" name="'+gName+'" value="'+aynData[i].VALUE+'" '+sChecked+' type="checkbox"/>'+aynData[i].TEXT+'&nbsp;';
+            if(gChecked=='vertical'){//竖排
               html+='<br/>';
+            }
+          }
+          return {
+            html : html,
+            bindData : bindData
+          }
+        }else{
+          var oTable = document.getElementById('options_table');
+          var nTr = oTable.getElementsByTagName('tr'),
+            trLength = nTr.length;
+          for(var i=0;i<trLength;i++){
+            var inputs = nTr[i].getElementsByTagName('input');
+            if(inputs.length>0){
+              if(!inputs[1].value) continue;
+              var sChecked = '';
+              if(inputs[0].checked) sChecked = 'checked';
+              html += '<input class="oak-field" name="'+gName+'" value="'+inputs[1].value+'" '+sChecked+' type="checkbox"/>'+inputs[1].value+'&nbsp;';
+              if(gChecked=='vertical'){//竖排
+                html+='<br/>';
+              }
+              bindData.push({
+                VALUE : inputs[1].value,
+                TEXT : inputs[1].value,
+                SELECTED : inputs[0].checked
+              })
+            }
           }
         }
-        return html;
+        return {
+          html : html,
+          bindData : bindData
+        };
 
       }
     </script>
@@ -168,12 +194,12 @@
                 </table>
             </div>
             <div id="dynamic" class="content">
-                <input type="text" placeholder="支持get请求的完整url地址（http://）" style="width:90%;" id="url">
+                <input type="text" value="/ajaxData/checkbox.json" placeholder="支持get请求的完整url地址（http://）" style="width:90%;" id="url">
                 <div class="alert alert-info">
                     <h4>提示：</h4>
                     <ol>
                         <li>1.如url中的值不为空此时不关注固定选项中有没有值，优先取地址中的值；</li>
-                        <li>2.地址中的json格式如下：<br>[{VALUE:'',TEXT:'',SELECTED:0/1}]<br>其中SELECTED=0未选中，SELECTED=1已选中</li>
+                        <li>2.地址中的json格式如下：<br>[{VALUE:'',TEXT:'',SELECTED:true/false}]<br>其中SELECTED=false未选中，SELECTED=true已选中</li>
                     </ol>
                 </div>
             </div>
@@ -184,6 +210,7 @@
 </div>
 <script type="text/javascript">
     var oNode = null,thePlugins = 'checkbox';
+    var baseUrl = '/public/ueditor/dialogs/oak-form';
     window.onload = function() {
       //tab选项卡
       var oTab=document.getElementsByClassName('oak-tab')[0];
@@ -242,41 +269,71 @@
       if(!name){
         name = $id('orgname').value.replace(/\"/g,"&quot;")+gTimestamp;
       }
+      var options = fnParseOptions(name,gTimestamp).html;
+      var obj = {
+        dynaUrl : $id('url').value,
+        type : 'checkbox',
+        orgname :$id('orgname').value,
+        orgID : orgID||'',
+        bindData : fnParseOptions(name,gTimestamp).bindData
+      };
+      if(obj.dynaUrl){ //存在动态获取数据的地址
+        UE.ajax.request(baseUrl+obj.dynaUrl,{
+          'method': 'GET',
+          'async' : false, //同步 避免弹出窗口先关闭
+          'dataType': 'json',
+          'onsuccess':function(data){
+            var response = eval('('+data.response+')');
+            options = fnParseOptions(name,gTimestamp,response).html;
+            obj = {
+              dynaUrl : $id('url').value,
+              type : 'checkbox',
+              orgname :$id('orgname').value,
+              orgID : orgID||'',
+              bindData : fnParseOptions(name,gTimestamp,response).bindData
+            };
+          },
+          'onerror':function(){
+            console.log("error")
+          }
+        });
+      }else{
+        if(!options){
+          alert('请添加选项');
+          return false;
+        }
+      }
+      var objStr = JSON.stringify(obj).replace(/\"/g,"\'");
       var placeStyle = 'width:auto'; //防止ueditor改变样式
       var gChecked = 'horizontal';
       if ($id('vertical').checked) gChecked = 'vertical';
       if( !oNode ) {
         try {
-          var gTimestamp = new Date().getTime();//相同的gTimestamp为同一组checkbox
-          var options = fnParseOptions(name,gChecked,gTimestamp);
-          if(!options){
-            alert('请添加选项');
-            return false;
-          }
           //{|- 使用边界，防止用户删除了span标签，程序处理要把边界替换为空
-          var html = '<span class="oak-field" style="'+placeStyle+'" oakplugin="checkbox" id="'+orgID+'" title="'+gTitle+'" orgchecked="'+gChecked+'" contenteditable="false">';
-          html += '<span class="oak-field oak-left" style="'+placeStyle+'" contenteditable="false">[</span>';
-          html +=options;
-          html += '<span class="oak-field oak-right" style="'+placeStyle+'" contenteditable="false">]</span>';
-          html +='</span>';
+           var html = '<span class="oak-field" style="'+placeStyle+'" oakplugin="checkbox" id="'+orgID+'" title="'+gTitle+'" orgchecked="'+gChecked+'" obj="'+objStr+'" contenteditable="false">';
+           html += '<span class="oak-field oak-left" style="'+placeStyle+'" contenteditable="false">[</span>';
+           html +=options;
+           html += '<span class="oak-field oak-right" style="'+placeStyle+'" contenteditable="false">]</span>';
+           html +='</span>';
           editor.execCommand('insertHtml',html);
           return true ;
         } catch ( e ) {
-          try {
-            editor.execCommand('error');
-          } catch ( e ) {
-            alert('控件异常，请到【橡树信息】反馈或寻求帮助！');
+            try {
+              editor.execCommand('error');
+            } catch ( e ) {
+              alert('控件异常，请到【橡树信息】反馈或寻求帮助！');
+            }
+            return false;
           }
-          return false;
+        } else {
+          oNode.setAttribute('title',gTitle);
+          oNode.setAttribute('orgchecked',gChecked);
+          oNode.setAttribute('obj',objStr)
+          oNode.innerHTML = '<span class="oak-field oak-left" style="'+placeStyle+'" contenteditable="false">[</span>'+options
+            + '<span class="oak-field oak-right" style="'+placeStyle+'" contenteditable="false">]</span>';
+          delete UE.plugins[thePlugins].editdom;
+          return true;
         }
-      } else {
-        oNode.setAttribute('title',gTitle);
-        oNode.setAttribute('orgchecked',gChecked);
-        oNode.innerHTML = '<span class="oak-field oak-left" style="'+placeStyle+'" contenteditable="false">[</span>'+fnParseOptions(name,gChecked,gTimestamp)
-                        + '<span class="oak-field oak-right" style="'+placeStyle+'" contenteditable="false">]</span>';
-        delete UE.plugins[thePlugins].editdom;
-        return true;
-      }
     };
 </script>
 </body>

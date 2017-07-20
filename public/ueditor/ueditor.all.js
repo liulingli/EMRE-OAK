@@ -8430,7 +8430,6 @@ UE.ajax = function() {
  * ```
  */
 var filterWord = UE.filterWord = function () {
-
     //是否是word过来的内容
     function isWordDocument( str ) {
         return /(class="?Mso|style="[^"]*\bmso\-|w:WordDocument|<(v|o):|lang=)/ig.test( str );
@@ -8444,6 +8443,7 @@ var filterWord = UE.filterWord = function () {
     }
 
     function filterPasteWord( str ) {
+      //console.log("filterPasteWord;")
         return str.replace(/[\t\r\n]+/g,' ')
                 .replace( /<!--[\s\S]*?-->/ig, "" )
                 //转换图片
@@ -8728,6 +8728,8 @@ var filterWord = UE.filterWord = function () {
         if (node.attrs) {
             attrhtml = [];
             var attrs = node.attrs;
+           // console.log("attrs:"+attrs)
+           // console.log(attrs)
             for (var a in attrs) {
                 //这里就针对
                 //<p>'<img src='http://nsclick.baidu.com/u.gif?&asdf=\"sdf&asdfasdfs;asdf'></p>
@@ -9030,6 +9032,7 @@ var filterWord = UE.filterWord = function () {
          * ```
          */
         replaceChild:function (target, source) {
+            //console.log("replaceChild")
             if (this.children) {
                 if(target.parentNode){
                     target.parentNode.removeChild(target);
@@ -9187,6 +9190,7 @@ var filterWord = UE.filterWord = function () {
          * ```
          */
         setAttr:function (attrName, attrVal) {
+            //console.log("setAttr");
             if (!attrName) {
                 delete this.attrs;
                 return;
@@ -9465,12 +9469,19 @@ var htmlparser = UE.htmlparser = function (htmlstr,ignoreBlank) {
             children:dtd.$empty[tagName] ? null : []
         });
         //如果属性存在，处理属性
+         //console.log("htmlattr:"+htmlattr)
         if (htmlattr) {
             var attrs = {}, match;
             while (match = re_attr.exec(htmlattr)) {
                 attrs[match[1].toLowerCase()] = notTransAttrs[match[1].toLowerCase()] ? (match[2] || match[3] || match[4]) : utils.unhtml(match[2] || match[3] || match[4])
             }
-            elm.attrs = attrs;
+          /**
+           * 修改 liulingli 2017-7-20
+           * 避免删除属性(如class 、oakplgin等)
+           * 原 ： elm.attrs = attrs;
+           * 改 ： elm.attrs = htmlattr;
+           */
+             elm.attrs = attrs;
         }
         //trace:3970
 //        //如果parent下不能放elm
