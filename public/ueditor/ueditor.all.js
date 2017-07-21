@@ -6920,9 +6920,10 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');
                     '.view{padding:0;word-wrap:break-word;cursor:text;height:90%;}\n' +
                     //设置默认字体和字号
                     //font-family不能呢随便改，在safari下fillchar会有解析问题
-                    'body{margin:8px;font-family:sans-serif;font-size:16px;}' +
+                    'body{margin:8px;font-family:sans-serif;font-size:14px;}' +
                     //设置段落间距
                     'p{margin:5px 0;}</style>' +
+                    (options.iframeOakUrl?'<script type=\'text/javascript\' src=\''+options.iframeOakUrl+'\' language=\'javascript\'></script>':'')+
                     (options.iframeScriptUrl?'<script type=\'text/javascript\' src=\''+options.iframeScriptUrl+'\' language=\'javascript\'></script>':'') +
                     (options.iframeCssUrl ? '<link rel=\'stylesheet\' type=\'text/css\' href=\'' + utils.unhtml(options.iframeCssUrl) + '\'/>' : '' ) +
                     (options.initialStyle ? '<style>' + options.initialStyle + '</style>' : '') +
@@ -11828,11 +11829,8 @@ UE.plugins['font'] = function () {
                         var styleVal = domUtils.getComputedStyle(startNode, style),
                             tmp = /^([\d\.]+)(\w+)$/.exec( styleVal );
                         if( tmp ) {
-
                             return Math.floor( tmp[1] ) + tmp[2];
-
                         }
-
                         return styleVal;
 
                     }
@@ -13434,6 +13432,7 @@ UE.plugins['insertcode'] = function() {
     };
     me.addListener('beforeenterkeydown',function(){
         var rng = me.selection.getRange();
+        console.log("beforeenterkeydown"+rng)
         var pre = domUtils.findParentByTagName(rng.startContainer,'pre',true);
         if(pre){
             me.fireEvent('saveScene');
@@ -13545,6 +13544,7 @@ UE.plugins['insertcode'] = function() {
     });
 
     me.addListener('tabkeydown',function(cmd,evt){
+        console.log('tabkeydown'+rng)
         var rng = me.selection.getRange();
         var pre = domUtils.findParentByTagName(rng.startContainer,'pre',true);
         if(pre){
@@ -14399,7 +14399,6 @@ UE.plugins['undo'] = function () {
     });
     var isCollapsed = true;
     me.addListener('keydown', function (type, evt) {
-
         var me = this;
         var keyCode = evt.keyCode || evt.which;
         if (!keys[keyCode] && !evt.ctrlKey && !evt.metaKey && !evt.shiftKey && !evt.altKey) {

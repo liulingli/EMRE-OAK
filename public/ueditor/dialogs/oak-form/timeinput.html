@@ -220,12 +220,12 @@
     if( !oNode ) {
       try {
         //{|- 使用边界，防止用户删除了span标签，程序处理要把边界替换为空
-        var html = '<span style="'+placeStyle+'"><span class="oak-field" style="'+placeStyle+'" oakplugin="'+thePlugins+'" id="'+obj.orgID+'" title="'+gTitle+'" obj="'+objStr+'" contenteditable="false">';
+        var html = '<span class="oak-field oakplugin" style="'+placeStyle+'" oakplugin="'+thePlugins+'" id="'+obj.orgID+'" title="'+gTitle+'" obj="'+objStr+'" contenteditable="false">';
         html += '<span class="oak-field oak-left" style="'+placeStyle+'" contenteditable="false">[</span>'
         html += '<input class="oak-field oak-field-value" style="'+style+'" value="'+obj.defaultValue+'" onclick="if(this.nodeType!=1)return;if(document.body.getAttribute(\'pattern\')==\'readonly\'){this.setAttribute(\'readonly\',\'readonly\');return;}else{this.removeAttribute(\'readonly\');}WdatePicker({dateFmt:\''+obj.textType+'\',vel:\''+name+'\',minDate:\''+obj.minDate_1+'\',maxDate:\''+obj.maxDate_1+'\'})" />';
         html += '<input type="hidden" id="'+name+'" value="'+obj.defaultValue_1+'"/>';
         html += '<span class="oak-field oak-right" style="'+placeStyle+'" contenteditable="false">]</span>';
-        html += '</span></span>';
+        html += '</span>';
         editor.execCommand('insertHtml',html);
         return true ;
       } catch ( e ) {

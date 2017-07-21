@@ -44,6 +44,94 @@ function getBodyTarget(target){
     }
   }
 }
+/**
+ * Created by liulingli on 2017/7/10.
+ * desc OAK电子病历编辑器，根据百度Ueditor封装
+ */
+var utils = baidu.editor.utils;
+var commands = [];
+// 为工具栏添加按钮，以下都是统一的按钮触发命令，所以写在一起
+var editCmds =  [
+  'bold', 'italic', 'underline', 'fontborder','strikethrough', 'subscript', 'superscript','|',
+  'paragraph','fontfamily','fontsize','|',
+  'indent', 'outdent','|',
+  'rowspacingtop','rowspacingbottom','lineheight','|',
+  'forecolor','backcolor','insertorderedlist','insertunorderedlist','indent','|',
+  'justifyleft','justifycenter','justifyright','justifyjustify'
+];
+var fixedCmds = [
+  'undo', 'redo', 'formatmatch','removeformat','|','print','preview','searchreplace','|','allwidgets','allhtml'
+]
+var insertCmds = [
+  'simpleupload','insertimage','scrawl','inserttable','|','pagebreak','spechars','|','kityformula','|','horizontal','snapscreen','|',
+  'inserttable','deletetable','insertparagraphbeforetable','insertrow','deleterow','insertcol','deletecol','|',
+  'mergecells','mergeright','mergedown','splittocells','splittorows','splittocols',
+];
+/*var insertCmds = [
+ 'kityformula'
+ ]*/
+var tableCmds = [
+  'deletetable','insertparagraphbeforetable','insertrow','deleterow','insertcol','deletecol','|',
+  'mergecells','mergeright','mergedown','splittocells','splittorows','splittocols',
+];
+var emreCmds = [
+  'template','controllibrary','checkbox','radio','select','input','timeinput'
+]
+
+/**
+ * 创建OAKEditor对象
+ * @param {JSON} options
+ */
+var OAKEditor = function (options) {
+  this.editor = options.editor; //百度编辑器实例，必须传入
+  this.editorui = baidu.editor.ui;
+  this.command = options.command || command;
+};
+/**
+ * 添加原型方法
+ */
+OAKEditor.prototype = {
+  /**
+   * 扩展编辑器命令
+   * @param name
+   * @param obj
+   */
+  registerCommand: function (name, obj) {
+    this.editor.command[name] = obj;
+  },
+  /**
+   * 生成命令按钮html
+   */
+  renderCommand: function (command) {
+    var html = "";
+    command = command||this.command;
+    for(var i=0;i<command.length;i++){
+      var commondUI = this.editorui[command[i]];
+      if(!commondUI){
+        html += "<div class='edui-box edui-separator edui-default'></div>"
+      }else{
+        var ui = commondUI(this.editor);
+        html += ui.renderHtml();
+      }
+
+      //ui.postRender();
+    }
+    return html;
+  },
+}
+
+function command(editor){
+  var editH = new OAKEditor({editor:editor,command:editCmds});
+  var fixedH = new OAKEditor({editor:editor,command:fixedCmds});
+  var insertH = new OAKEditor({editor:editor,command:insertCmds});
+  let emreH = new OAKEditor({editor:editor,command:emreCmds});
+  return {
+    editHtml : editH.renderCommand(),
+    fixedHtml : fixedH.renderCommand(),
+    insertHtml : insertH.renderCommand(),
+    emreHtml : emreH.renderCommand(),
+  }
+}
 
 
 /**
@@ -909,7 +997,7 @@ UE.plugins['select'] = function () {
       selectEl.className = "oak-field oak-select-root";
       var html = '<div class="oak-select-content oak-field"><ul class="oak-select oak-field" data-type="select">'; //生成html
       for(var i=0;i<bindData.length;i++){
-        html += '<li class="'+(bindData[i].selected?'selected oak-field':'oak-field')+'" title="'+bindData[i].value+'">'+bindData[i].value+'</li>'
+        html += '<li class="'+(bindData[i].SELECTED?'selected oak-field':'oak-field')+'" value="'+bindData[i].VALUE+'" title="'+bindData[i].TEXT+'">'+bindData[i].TEXT+'</li>'
       }
       html += '</ul></div>';
       selectEl.innerHTML = html;
@@ -1153,6 +1241,118 @@ baidu.editor.ui.timeinput = function(editor,list,title){
       //渲染dialog
       kfDialog.render();
       kfDialog.open();
+    }
+  });
+
+  //当点到编辑内容上时，按钮要做的状态反射
+  editor.addListener('selectionchange', function () {
+    var state = editor.queryCommandState('select');
+    if (state == -1) {
+      kfBtn.setDisabled(true);
+      kfBtn.setChecked(false);
+    } else {
+      kfBtn.setDisabled(false);
+      kfBtn.setChecked(state);
+    }
+  });
+  return kfBtn;
+}
+
+/**
+ * 获取页面所有控件
+ */
+UE.plugins['allwidgets'] = function () {
+  var me = this, thePlugins = 'allwidgets';
+  me.commands[thePlugins] = {
+    execCommand: function () {
+      var $body = this.body;
+      // 获取id为oakplgin的对象
+      var $children = $body.getElementsByClassName('oakplugin');
+      var widgets = [];
+      for(var i=0;i<$children.length;i++){
+        var obj = $children[i].getAttribute('obj');
+        var oakplugin = $children[i].getAttribute('oakplugin');
+        var value;
+        if(oakplugin == 'input' || oakplugin == 'select'){
+          var target = $children[i].getElementsByClassName('oak-field-value')[0];
+          value = target.innerText;
+        }else if(oakplugin == 'timeinput'){
+          var target = $children[i].getElementsByTagName('input')[1];
+          value = target.value;
+        }else if(oakplugin == 'checkbox'||oakplugin == 'radio'){
+          var inputs = $children[i].getElementsByTagName('input');
+          value = [];
+          for(var j=0;j<inputs.length;j++){
+            if(inputs[j].checked){
+              value.push(inputs[j].value)
+            }
+          }
+        }
+        widgets.push({
+          value : value,
+          data : obj,
+        })
+      }
+      return widgets;
+    }
+  };
+}
+baidu.editor.ui.allwidgets = function(editor,list,title){
+  var iconUrl = editor.options.UEDITOR_HOME_URL + 'imgs/allwidgets.png';
+  var tmpLink = document.createElement('a');
+  tmpLink.href = iconUrl;
+  tmpLink.href = tmpLink.href;
+  iconUrl = tmpLink.href;
+
+  var kfBtn = new UE.ui.Button({
+    name: 'allwidgets-1',
+    title:'获取所有控件',
+    //需要添加的额外样式，指定icon图标
+    className:'edui-for-allwidgets-1',
+    onclick:function () {
+      editor.execCommand('allwidgets');
+    }
+  });
+
+  //当点到编辑内容上时，按钮要做的状态反射
+  editor.addListener('selectionchange', function () {
+    var state = editor.queryCommandState('select');
+    if (state == -1) {
+      kfBtn.setDisabled(true);
+      kfBtn.setChecked(false);
+    } else {
+      kfBtn.setDisabled(false);
+      kfBtn.setChecked(state);
+    }
+  });
+  return kfBtn;
+}
+/**
+ * 获取页面所有控件
+ */
+UE.plugins['allhtml'] = function () {
+  var me = this, thePlugins = 'allhtml';
+  me.commands[thePlugins] = {
+    execCommand: function () {
+      console.log(me.getContent())
+      return me.getAllHtml();
+    }
+  };
+}
+baidu.editor.ui.allhtml = function(editor,list,title){
+  var iconUrl = editor.options.UEDITOR_HOME_URL + 'imgs/allhtml.png';
+  var tmpLink = document.createElement('a');
+  tmpLink.href = iconUrl;
+  tmpLink.href = tmpLink.href;
+  iconUrl = tmpLink.href;
+
+  var kfBtn = new UE.ui.Button({
+    name: 'allhtml-1',
+    title:'获取编辑器html',
+    //需要添加的额外样式，指定icon图标
+    className:'edui-for-allhtml-1',
+    onclick:function () {
+      editor.execCommand('allhtml');
     }
   });
 

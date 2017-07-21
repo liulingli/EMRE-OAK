@@ -33,6 +33,8 @@
 
           //ueditor给编辑区域的iframe引入一个js文件
           iframeScriptUrl:'../../../public/My97DatePicker/WdatePicker.js',
+         //ueditor给编辑区域的iframe引入一个js文件
+          iframeOakUrl:'../../../public/ueditor/ueditor.oak.js',
 
         //工具栏上的所有的功能按钮和下拉框，可以在new编辑器的实例时选择自己需要的重新定义
       toolbars:['kityformula']

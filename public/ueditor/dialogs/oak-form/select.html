@@ -115,27 +115,36 @@
         });
       }
       /*组合select*/
-      function fnParseOptions(gName,gChecked){
-        var oTable = document.getElementById('options_table');
-        var nTr = oTable.getElementsByTagName('tr'),
-            trLength = nTr.length,
-            bindData = [];
+      function fnParseOptions(gName,gChecked,aynData){
+        var bindData = [];
             html='';
-        for(var i=0;i<trLength;i++){
-          var inputs = nTr[i].getElementsByTagName('input');
-          if(inputs.length>0){
-            if(!inputs[1].value) continue;
-            var sChecked = '';
-            if(inputs[0].checked) sChecked = 'checked';
-            bindData.push({
-              name : gName,
-              value : inputs[1].value,
-              selected :inputs[0].checked
-            })
-            //html += '<option class="oak-field" name="'+gName+'" value="'+inputs[1].value+'" '+sChecked+' >'+inputs[1].value+'&nbsp;</option>';
+        if(aynData){ //动态获取数据
+          for(var i=0;i<aynData.length;i++){
+            if(aynData[i].SELECTED){
+              html = aynData[i].TEXT;
+            }
+            bindData.push(aynData[i]);
           }
+        }else{
+          var oTable = document.getElementById('options_table');
+          var nTr = oTable.getElementsByTagName('tr'),
+            trLength = nTr.length;
+
+          for(var i=0;i<trLength;i++){
+            var inputs = nTr[i].getElementsByTagName('input');
+            if(inputs.length>0){
+              if(!inputs[1].value) continue;
+              var sChecked = '';
+              if(inputs[0].checked) sChecked = 'checked';
+              bindData.push({
+                VALUE : inputs[1].value,
+                TEXT : inputs[1].value,
+                SELECTED :inputs[0].checked
+              })
+            }
+          }
+          html = $id('defaultValue').value||$id('orgname').value;
         }
-        html = $id('defaultValue').value||$id('orgname').value;
         return {
           bindData : bindData,
           html :html
@@ -187,7 +196,7 @@
                 </table>
             </div>
             <div id="dynamic" class="content">
-                <input type="text" placeholder="支持get请求的完整url地址（http://）" style="width:90%;" id="url">
+                <input type="text" value='/ajaxData/select.json' placeholder="支持get请求的完整url地址（http://）" style="width:90%;" id="url">
                 <div class="alert alert-info">
                     <h4>提示：</h4>
                     <ol>
@@ -203,6 +212,7 @@
 </div>
 <script type="text/javascript">
   var oNode = null,thePlugins = 'select';
+  var baseUrl = '/public/ueditor/dialogs/oak-form';
   window.onload = function() {
     //tab选项卡
     var oTab=document.getElementsByClassName('oak-tab')[0];
@@ -229,16 +239,19 @@
       $id('orgID').value = obj.orgID||'';
       $id('defaultValue').value = obj.defaultValue||'';
       $id('color').value = obj.color||'';
-
-      var optionTags = obj.bindData;
-      console.log(optionTags)
-      for(var i=0;i<optionTags.length;i++) {
+      if(obj.dynaUrl != ''){ //如果存在动态地址,将地址回填，并切换到url选项卡
+        $id('url').value = obj.dynaUrl;
+        aLi[1].click();
+      }else{
+        var optionTags = obj.bindData;
+        for(var i=0;i<optionTags.length;i++) {
           var obj = {
             checked : optionTags[i].selected,
             value : optionTags[i].value,
             name : optionTags[i].name
           };
           fnAddComboTr(optionTags[i],obj);
+        }
       }
     }
   }
@@ -262,22 +275,47 @@
     var options = fnParseOptions(name,gTimestamp).html;
     var obj = {
       type : 'select',
+      dynaUrl : $id('url').value,
       orgname :$id('orgname').value,
       orgID : orgID||'',
       color : $id('color').value,
       defaultValue :$id('defaultValue').value ,
       bindData : fnParseOptions(name,gTimestamp).bindData
     };
+    if(obj.dynaUrl !=''){ //存在动态获取数据的地址
+      UE.ajax.request(baseUrl+obj.dynaUrl,{
+        'method': 'GET',
+        'async' : false, //同步 避免弹出窗口先关闭
+        'dataType': 'json',
+        'onsuccess':function(data){
+          var response = eval('('+data.response+')');
+          obj = {
+            type : 'select',
+            dynaUrl : $id('url').value,
+            orgname :$id('orgname').value,
+            orgID : orgID||'',
+            color : $id('color').value,
+            defaultValue :$id('defaultValue').value ,
+            bindData : response
+          };
+          options = fnParseOptions(name,gTimestamp,response).html;
+        },
+        'onerror':function(){ //出现异常
+          console.log("error")
+        }
+      });
+    }else{
+      if(!options){
+        alert('请添加选项');
+        return false;
+      }
+    }
     var objStr = JSON.stringify(obj).replace(/\"/g,"\'");
     var placeStyle = 'width:auto'; //防止ueditor改变样式
     if( !oNode ) {
       try {
-        if(!options){
-          alert('请添加选项');
-          return false;
-        }
         //{|- 使用边界，防止用户删除了span标签，程序处理要把边界替换为空
-        var html = '<span class="oak-field" style="'+placeStyle+'" oakplugin="select" id="'+orgID+'" title="'+gTitle+'" obj="'+objStr+'" contenteditable="false">';
+        var html = '<span class="oak-field oakplugin" style="'+placeStyle+'" oakplugin="select" id="'+orgID+'" title="'+gTitle+'" obj="'+objStr+'" contenteditable="false">';
         html += '<span class="oak-field oak-left" style="'+placeStyle+'" contenteditable="false">[</span>';
         html += '<span class="oak-field oak-field-value" style="color: '+obj.color+'">'+options+'</span>';
         html += '<span class="oak-field oak-right" style="'+placeStyle+'" contenteditable="false">]</span>';

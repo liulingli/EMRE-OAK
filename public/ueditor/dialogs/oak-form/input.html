@@ -117,7 +117,7 @@
     if( !oNode ) {
       try {
         //{|- 使用边界，防止用户删除了span标签，程序处理要把边界替换为空
-        var html = '<span style="'+placeStyle+'" class="oak-field" oakplugin="input" id="'+obj.orgID+'" title="'+gTitle+'" obj="'+objStr+'" contenteditable="false">';
+        var html = '<span class="oak-field oakplugin" style="'+placeStyle+'"  oakplugin="input" id="'+obj.orgID+'" title="'+gTitle+'" obj="'+objStr+'" contenteditable="false">';
         html += '<span class="oak-field oak-left" style="'+placeStyle+'" contenteditable="false">&#8203;[</span>'                                                    /**window.getSelection().focusOffset contenteditable=true的元素获取光标位置*****/
         html +='<span class="oak-field oak-field-value" style="'+style+'" regnex="'+obj.regnex+'" contenteditable="false" onkeydown="if(window.getSelection().focusOffset==0){if(event.keyCode==8||event.keyCode==46){return false;}}" onblur="this.setAttribute(\'contenteditable\',false)" onclick="this.setAttribute(\'contenteditable\',true);this.focus();">'+obj.defaultValue+'</span>';
         html += '<span class="oak-field oak-right" style="'+placeStyle+'" contenteditable="false">&#8203;]</span>'

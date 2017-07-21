@@ -105,7 +105,7 @@ body,html{
 }
 /*图标样式 多选图标 */
 .edui-default .edui-toolbar .edui-button.edui-for-checkbox-1 .edui-icon{
-  background-size:85%;
+  background-size:80%;
   background-position: center center ;
   background-repeat: no-repeat;
 }
@@ -144,11 +144,30 @@ body,html{
   background-position: center center;
   background-repeat: no-repeat;
 }
+/* 图标样式 获取控件*/
+.edui-default .edui-toolbar .edui-button.edui-for-allwidgets-1 .edui-icon {
+  background-position: -401px -40px;
+}
+
+/* 图标样式 获取html*/
+.edui-default .edui-toolbar .edui-button.edui-for-allhtml-1 .edui-icon {
+  width: 18px !important;
+  height: 18px !important;
+  background-image:url('../../public/ueditor/imgs/allhtml.png');
+  background-size:85%;
+  background-repeat: no-repeat;
+  background-position:center center;
+}
+.edui-button-wrap:hover{
+  background-color: #fff5d4;
+  border: 1px solid #dcac6c;
+}
 .edui-default .edui-bubble .edui-popup-content{
   font-family:'microsoft yahei' !important;
   font-size:12px !important;
   padding:4px 12px !important;
 }
+
 /* 通用组件样式 */
 .panel{
   color:#3c3c3c;

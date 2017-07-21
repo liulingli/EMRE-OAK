@@ -1,5 +1,4 @@
  UE.registerUI('kityformula', function(editor, uiname){
-    console.log("kityformula:"+uiname);
     // 创建dialog
     var kfDialog = new UE.ui.Dialog({
 

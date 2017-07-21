@@ -5,6 +5,7 @@
 import React,{Component} from 'react';
 import classNames from 'classnames';
 import Tab from './common/tab';
+import innerHtml from './innerHtml';
 
 export default class Ueditor extends Component {
   type = ["设计模式","编辑模式","只读模式","审阅模式"];
@@ -17,6 +18,10 @@ export default class Ueditor extends Component {
   componentDidMount(){
     let {id} = this.props;
     let editor = UE.getEditor(id);
+    editor.ready(function() {
+      console.log("ready")
+      editor.setContent(innerHtml, true);
+    });
     setTimeout(()=>{
       let html = command(editor);
       this.setState({
@@ -64,6 +69,7 @@ export default class Ueditor extends Component {
   designPattern = ()=> {
     let editor = this.state.editor;
     editor.body.setAttribute('pattern','design');
+    //editor.body.setAttribute('contenteditable','true');
     editor.setEnabled();
   }
 
@@ -73,6 +79,7 @@ export default class Ueditor extends Component {
   editPattern = ()=> {
     let editor = this.state.editor;
     editor.body.setAttribute('pattern','edit');
+    //editor.body.setAttribute('contenteditable','false');
     editor.setDisabled();
   }
 
@@ -82,6 +89,7 @@ export default class Ueditor extends Component {
   readonlyPattern = ()=> {
     let editor = this.state.editor;
     editor.body.setAttribute('pattern','readonly');
+    //editor.body.setAttribute('contenteditable','false');
     editor.setDisabled();
   }
 
@@ -91,11 +99,13 @@ export default class Ueditor extends Component {
   reviewPattern = ()=> {
     let editor = this.state.editor;
     editor.body.setAttribute('pattern','review');
+    //editor.body.setAttribute('contenteditable','false');
+    //editor.setDisabled();
     editor.setEnabled();
   }
   render () {
     let {id,style} = this.props;
-    let {html,index,fixedHtml,editHtml,emreHtml,insertHtml} = this.state;
+    let {editor,html,index,fixedHtml,editHtml,emreHtml,insertHtml} = this.state;
     return (
       <div className="ueditor-oak">
         <div className="ueditor-toobar-oak">
@@ -130,7 +140,6 @@ export default class Ueditor extends Component {
         </div>
         <div className="ueditor-content-oak">
           <script className="ueditor-script-oak" id={id} style={style} name="content" type="text/plain">
-            护理模板编辑器
           </script>
         </div>
       </div>
