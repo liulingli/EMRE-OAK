@@ -64,13 +64,23 @@ ChangeWidget.prototype = {
     },
     inputChange : function(target,value){ //input控件监听
       var oldValue = value;
+      /* 用定时器监听，节流，优化效率 */
+      var timer = null;
+
+      function diff(oldValue,newValue){
+        console.log(oldValue+"~"+newValue)
+      }
       target.addEventListener('keyup',function(e){
         var newValue = e.target.innerHTML;
-        console.log(oldValue+"~"+newValue)
+        clearTimeout(timer)
+        timer = setTimeout(function(){
+          diff(oldValue,newValue)
+        },400)
       });
+
     },
     selectChange : function (){
-      
+
     },
     timeinputChange : function (){
 

@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7f8aa5de-f21b-4859-8330-f82e5864ad59" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/checkbox.html" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/checkbox.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/ueditor.oak.js" afterPath="$PROJECT_DIR$/public/ueditor/ueditor.oak.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/ueditor.plugin.oak.js" afterPath="$PROJECT_DIR$/public/ueditor/ueditor.plugin.oak.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ueditor.js" afterPath="$PROJECT_DIR$/src/components/ueditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/app.scss" afterPath="$PROJECT_DIR$/src/styles/app.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +22,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ueditor.oak.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ueditor.oak.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.oak.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="72" column="6" lean-forward="false" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+            <state relative-caret-position="432">
+              <caret line="78" column="9" lean-forward="true" selection-start-line="77" selection-start-column="14" selection-end-line="78" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="162" column="30" lean-forward="false" selection-start-line="162" selection-start-column="2" selection-end-line="162" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -173,7 +181,6 @@
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/timeinput.html" />
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/radio.html" />
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/input.html" />
-        <option value="$PROJECT_DIR$/src/styles/app.scss" />
         <option value="$PROJECT_DIR$/public/ueditor/ueditor.config.js" />
         <option value="$PROJECT_DIR$/public/ueditor/ueditor.all.js" />
         <option value="$PROJECT_DIR$/src/components/innderHtml.js" />
@@ -184,6 +191,7 @@
         <option value="$PROJECT_DIR$/public/ueditor/ueditor.plugin.oak.js" />
         <option value="$PROJECT_DIR$/src/components/ueditor.js" />
         <option value="$PROJECT_DIR$/public/ueditor/ueditor.oak.js" />
+        <option value="$PROJECT_DIR$/src/styles/app.scss" />
       </list>
     </option>
   </component>
@@ -369,6 +377,24 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="EMRE-OAK">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="styles">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -577,7 +603,7 @@
       <workItem from="1500528161030" duration="12182000" />
       <workItem from="1500601207709" duration="25874000" />
       <workItem from="1500631339333" duration="3246000" />
-      <workItem from="1500858838461" duration="3182000" />
+      <workItem from="1500858838461" duration="4544000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1500454397383</created>
@@ -607,11 +633,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500633985248</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加痕迹保留（完善中）">
+      <created>1500862090507</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1500862090507</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234148000" />
+    <option name="totallyTimeSpent" value="235510000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -626,7 +659,7 @@
     <frame x="-8" y="-8" width="1376" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20926756" sideWeight="0.34900543" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17339313" sideWeight="0.34900543" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268921" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -683,7 +716,8 @@
     <MESSAGE value="新建" />
     <MESSAGE value="新增动态获取表单数据功能，新增视图模式" />
     <MESSAGE value="完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善" />
+    <MESSAGE value="增加痕迹保留（完善中）" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加痕迹保留（完善中）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -955,13 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -1109,8 +1136,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.oak.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="72" column="6" lean-forward="false" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+        <state relative-caret-position="432">
+          <caret line="78" column="9" lean-forward="true" selection-start-line="77" selection-start-column="14" selection-end-line="78" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="162" column="30" lean-forward="false" selection-start-line="162" selection-start-column="2" selection-end-line="162" selection-end-column="32" />
           <folding />
         </state>
       </provider>
