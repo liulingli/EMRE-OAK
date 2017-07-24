@@ -1,10 +1,23 @@
-# Deployable React + Webpack 2 starter kit
+### 电子病历编辑器（基于ueditor）
 
-Most notable libraries:
-- React 15
-- Webpack 2
-- React-hot-loader 3
+##### 项目所用到的技术
+- node
+- express
+- webpack
+- babel
+- react
+- react-router
+- sass
 
+##### 使用 
+- 安装依赖 
+```
+npm install
+
+```
+  
+
+##### 运行
 Running on development mode:
 ```
 npm run dev
@@ -15,5 +28,3 @@ Running on production mode:
 npm run build
 npm start
 ```
-
-Before you deploy, make sure you generated your bundle through `npm run build`.
