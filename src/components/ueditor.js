@@ -19,7 +19,6 @@ export default class Ueditor extends Component {
     let {id} = this.props;
     let editor = UE.getEditor(id);
     editor.ready(function() {
-      console.log("ready")
       editor.setContent(innerHtml, true);
     });
     setTimeout(()=>{

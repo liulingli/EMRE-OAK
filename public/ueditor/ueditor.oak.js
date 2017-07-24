@@ -16,11 +16,9 @@
  *
  */
 window.onload = function(){
-  document.body.addEventListener('click',function(e){
-    //console.log(e.target)
-  })
   var widget = new ChangeWidget();
   widget.init();
+  widget.change();
 }
 
 function ChangeWidget(){
@@ -38,19 +36,41 @@ function ChangeWidget(){
   this.editor = window.top.UE.getEditor('ueditor'); //获取编辑器实例
   /* 获取编辑器内所有控件的原始值 */
   this.init = function (){
-     this.editor.ready(function(){
+     var that = this;
+     that.editor.ready(function(){
        var allwidgets = this.execCommand('allwidgets');
-       this.allwidgets = allwidgets;
-       console.log(this.allwidgets)
+       that.allwidgets = allwidgets;
      })
   }
 }
 ChangeWidget.prototype = {
-    inputChange : function(){
-
+    change:function(){
+      var allwidgets = this.allwidgets;
+      //绑定事件
+      for(var i=0;i<allwidgets.length;i++){
+        var widget = allwidgets[i];
+        var type = widget.type;
+        var target = widget.target;
+        var value = widget.value;
+        switch (type){
+          case 'input' : this.inputChange(target,value);break;
+          case 'select' : this.selectChange(target,value);break;
+          case 'timeinput' : this.timeinputChange(target,value);break;
+          case 'checkbox' : this.checkboxChange(target,value);break;
+          case 'radio' : this.radioChange(target,value);break;
+          default:break;
+        }
+      }
+    },
+    inputChange : function(target,value){ //input控件监听
+      var oldValue = value;
+      target.addEventListener('keyup',function(e){
+        var newValue = e.target.innerHTML;
+        console.log(oldValue+"~"+newValue)
+      });
     },
     selectChange : function (){
-
+      
     },
     timeinputChange : function (){
 

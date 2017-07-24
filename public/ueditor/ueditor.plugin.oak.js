@@ -1270,7 +1270,7 @@ UE.plugins['allwidgets'] = function () {
       var $children = $body.getElementsByClassName('oakplugin');
       var widgets = [];
       for(var i=0;i<$children.length;i++){
-        var obj = $children[i].getAttribute('obj');
+        var obj = eval("("+$children[i].getAttribute('obj')+")");
         var oakplugin = $children[i].getAttribute('oakplugin');
         var value;
         if(oakplugin == 'input' || oakplugin == 'select'){
@@ -1289,8 +1289,10 @@ UE.plugins['allwidgets'] = function () {
           }
         }
         widgets.push({
+          type :oakplugin,
           value : value,
           data : obj,
+          target : $children[i]
         })
       }
       return widgets;

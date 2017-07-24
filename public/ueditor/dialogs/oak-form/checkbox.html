@@ -135,7 +135,7 @@
               var sChecked = '';
               if(inputs[0].checked) sChecked = 'checked';
               html += '<label class="oak-field"><input class="oak-field" name="'+gName+'" value="'+inputs[1].value+'" '+sChecked+' type="checkbox"/>'+inputs[1].value+'</label>';
-              if(gChecked=='vertical'){//竖排
+              if(gChecked=='vertical'&&i<trLength-1){//竖排
                 html+='<br/>';
               }
               bindData.push({
