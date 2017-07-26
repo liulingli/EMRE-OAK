@@ -6,7 +6,7 @@ import { AppContainer } from 'react-hot-loader'
 
   ReactDOM.render(
     <AppContainer>
-        <EmreOak id="ueditor" style={{height:'auto',width:800}}/>
+        <EmreOak id="ueditor"/>
     </AppContainer>,
     document.getElementById('main')
   )

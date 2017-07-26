@@ -6916,6 +6916,7 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');
                 var html = ( ie && browser.version < 9  ? '' : '<!DOCTYPE html>') +
                     '<html xmlns=\'http://www.w3.org/1999/xhtml\' class=\'view\' ><head>' +
                     '<style type=\'text/css\'>' +
+                    ''+
                     //设置四周的留边
                     '.view{padding:0;word-wrap:break-word;cursor:text;height:90%;}\n' +
                     //设置默认字体和字号
@@ -12534,6 +12535,8 @@ UE.commands['indent'] = {
  */
 UE.commands['print'] = {
     execCommand : function(){
+        //this.window.print.portrait   =  false;
+        console.log(this.window.print.portrait)
         this.window.print();
     },
     notNeedUndo : 1
@@ -13909,7 +13912,7 @@ UE.plugins['pagebreak'] = function () {
     //分页符样式添加
 
     me.ready(function(){
-        utils.cssRule('pagebreak','.pagebreak{display:block;clear:both !important;cursor:default !important;width: 100% !important;margin:0;}',me.document);
+        utils.cssRule('pagebreak','.pagebreak{page-break-after:always;height:0px;display:block;clear:both !important;cursor:default !important;width: 100% !important;margin:0;}',me.document);
     });
     function isHr(node){
         return node && node.nodeType == 1 && node.tagName == 'HR' && node.className == 'pagebreak';

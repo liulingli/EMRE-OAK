@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f8aa5de-f21b-4859-8330-f82e5864ad59" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/imgs/orient.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/imgs/portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/vestigeReservation.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/My97DatePicker/WdatePicker.js" afterPath="$PROJECT_DIR$/public/My97DatePicker/WdatePicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/timeinput.html" afterPath="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/timeinput.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/themes/default/css/ueditor.css" afterPath="$PROJECT_DIR$/public/ueditor/themes/default/css/ueditor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/themes/iframe.css" afterPath="$PROJECT_DIR$/public/ueditor/themes/iframe.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/ueditor.all.js" afterPath="$PROJECT_DIR$/public/ueditor/ueditor.all.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/ueditor.oak.js" afterPath="$PROJECT_DIR$/public/ueditor/ueditor.oak.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ueditor/ueditor.plugin.oak.js" afterPath="$PROJECT_DIR$/public/ueditor/ueditor.plugin.oak.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/innerHtml.js" afterPath="$PROJECT_DIR$/src/components/innerHtml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ueditor.js" afterPath="$PROJECT_DIR$/src/components/ueditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/app.scss" afterPath="$PROJECT_DIR$/src/styles/app.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,34 +34,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ueditor.oak.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ueditor.oak.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.oak.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="78" column="9" lean-forward="true" selection-start-line="77" selection-start-column="14" selection-end-line="78" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/styles/app.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="162" column="30" lean-forward="false" selection-start-line="162" selection-start-column="2" selection-end-line="162" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ueditor.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ueditor.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="258">
+              <caret line="218" column="17" lean-forward="true" selection-start-line="218" selection-start-column="17" selection-end-line="218" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#62#100#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,22 +49,82 @@
       <file leaf-file-name="ueditor.plugin.oak.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.plugin.oak.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="1294" column="31" lean-forward="false" selection-start-line="1294" selection-start-column="31" selection-end-line="1294" selection-end-column="31" />
+            <state relative-caret-position="18108">
+              <caret line="1009" column="42" lean-forward="false" selection-start-line="1009" selection-start-column="42" selection-end-line="1009" selection-end-column="42" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ueditor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ueditor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#62#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vestigeReservation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/vestigeReservation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#69#107#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="216">
+                <caret line="12" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iframe.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ueditor/themes/iframe.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkbox.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/checkbox.html">
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="137" column="51" lean-forward="false" selection-start-line="137" selection-start-column="51" selection-end-line="137" selection-end-column="51" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1500859678568" expanded="true" signature="5636:5644" ph=" " />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="15" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,25 +142,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>iframe</find>
-      <find>editor.execCommand</find>
-      <find>addInputRule</find>
-      <find>UE.plugins[</find>
-      <find>execCommand</find>
-      <find>attr</find>
-      <find>&amp;#</find>
-      <find>是否</find>
-      <find>element</find>
-      <find>element(</find>
-      <find>console.log</find>
-      <find>style</find>
-      <find>whitList</find>
-      <find>span</find>
       <find>click</find>
       <find>setEnabled</find>
-      <find>WdatePicker</find>
-      <find>U</find>
-      <find>return</find>
       <find>a</find>
       <find>$dp.dd.style.left</find>
       <find>function W</find>
@@ -121,6 +155,23 @@
       <find>16px</find>
       <find>fontsize</find>
       <find>FontSize</find>
+      <find>.view</find>
+      <find>margin</find>
+      <find>print</find>
+      <find>table</find>
+      <find>selectTdClass</find>
+      <find>return</find>
+      <find>WdatePicker</find>
+      <find>U</find>
+      <find>format</find>
+      <find>contentChange</find>
+      <find>Change</find>
+      <find>_content</find>
+      <find>UE.Editor</find>
+      <find>allHtml</find>
+      <find>all</find>
+      <find>showChange</find>
+      <find>allhtml</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -149,7 +200,6 @@
         <option value="$PROJECT_DIR$/src/components/emreOak.jsx" />
         <option value="$PROJECT_DIR$/src/components/emreOak.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/table/edittd.html" />
         <option value="$PROJECT_DIR$/public/ueditor/plugin/checkbox.js" />
         <option value="$PROJECT_DIR$/public/ueditor/plugin/checkbox.html" />
@@ -170,28 +220,32 @@
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/oak-form.css" />
         <option value="$PROJECT_DIR$/public/ueditor/ueditor.parse.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/public/My97DatePicker/WdatePicker.js" />
-        <option value="$PROJECT_DIR$/public/ueditor/themes/iframe.css" />
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/checkbox.json" />
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/ajaxData/checkbox.json" />
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/ajaxData/select.json" />
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/ajaxData/radio.json" />
         <option value="$PROJECT_DIR$/public/ueditor/lang/zh-cn/zh-cn.js" />
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/select.html" />
-        <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/timeinput.html" />
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/radio.html" />
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/input.html" />
         <option value="$PROJECT_DIR$/public/ueditor/ueditor.config.js" />
-        <option value="$PROJECT_DIR$/public/ueditor/ueditor.all.js" />
         <option value="$PROJECT_DIR$/src/components/innderHtml.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/addKityFormulaDialog.js" />
-        <option value="$PROJECT_DIR$/src/components/innerHtml.js" />
         <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/checkbox.html" />
-        <option value="$PROJECT_DIR$/public/ueditor/ueditor.plugin.oak.js" />
-        <option value="$PROJECT_DIR$/src/components/ueditor.js" />
-        <option value="$PROJECT_DIR$/public/ueditor/ueditor.oak.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/public/ueditor/themes/default/css/ueditor.css" />
         <option value="$PROJECT_DIR$/src/styles/app.scss" />
+        <option value="$PROJECT_DIR$/public/My97DatePicker/WdatePicker.js" />
+        <option value="$PROJECT_DIR$/public/ueditor/dialogs/oak-form/timeinput.html" />
+        <option value="$PROJECT_DIR$/src/components/innerHtml.js" />
+        <option value="$PROJECT_DIR$/public/ueditor/ueditor.all.js" />
+        <option value="$PROJECT_DIR$/public/ueditor/themes/iframe.css" />
+        <option value="$PROJECT_DIR$/public/ueditor/ueditor.plugin.oak.js" />
+        <option value="$PROJECT_DIR$/public/ueditor/ueditor.oak.js" />
+        <option value="$PROJECT_DIR$/src/components/ueditor.js" />
+        <option value="$PROJECT_DIR$/src/components/vestigeReservation.js" />
       </list>
     </option>
   </component>
@@ -228,7 +282,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -376,7 +429,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
+            <PATH_ELEMENT USER_OBJECT="public">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -390,39 +443,22 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
+            <PATH_ELEMENT USER_OBJECT="public">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="styles">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="EMRE-OAK">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="components">
+            <PATH_ELEMENT USER_OBJECT="ueditor">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/practice/area-client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -431,18 +467,18 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\project\EMRE-OAK\public\ueditor\dialogs\oak-form\ajaxData" />
-      <recent name="E:\practice\EMRE-OAK\public\ueditor\third-plugin\kityformula-plugin\kityformula\js" />
-      <recent name="E:\practice\EMRE-OAK\public\ueditor\dialogs\oak-form" />
-      <recent name="E:\practice\EMRE-OAK\EMRE-OAK\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\project\EMRE-OAK\public\ueditor\imgs" />
       <recent name="E:\project\EMRE-OAK\public\ueditor\lang\zh-cn\images" />
       <recent name="E:\practice\EMRE-OAK\public" />
       <recent name="E:\practice\EMRE-OAK\public\ueditor\third-party" />
       <recent name="E:\practice\EMRE-OAK\public\ueditor\imgs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\EMRE-OAK\public\ueditor\dialogs\oak-form\ajaxData" />
+      <recent name="E:\practice\EMRE-OAK\public\ueditor\third-plugin\kityformula-plugin\kityformula\js" />
+      <recent name="E:\practice\EMRE-OAK\public\ueditor\dialogs\oak-form" />
+      <recent name="E:\practice\EMRE-OAK\EMRE-OAK\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -603,7 +639,8 @@
       <workItem from="1500528161030" duration="12182000" />
       <workItem from="1500601207709" duration="25874000" />
       <workItem from="1500631339333" duration="3246000" />
-      <workItem from="1500858838461" duration="4544000" />
+      <workItem from="1500858838461" duration="33249000" />
+      <workItem from="1501046001691" duration="291000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1500454397383</created>
@@ -640,11 +677,25 @@
       <option name="project" value="LOCAL" />
       <updated>1500862090507</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="增加痕迹保留（完善中）">
+      <created>1500863432257</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1500863432257</updated>
+    </task>
+    <task id="LOCAL-00007" summary="完善README.md">
+      <created>1500864871022</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1500864871022</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235510000" />
+    <option name="totallyTimeSpent" value="264506000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -659,15 +710,15 @@
     <frame x="-8" y="-8" width="1376" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17339313" sideWeight="0.34900543" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24588938" sideWeight="0.34900543" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268921" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22544283" sideWeight="0.50298953" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20926756" sideWeight="0.6509946" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962631" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22544283" sideWeight="0.49701047" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39613527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1095008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -717,14 +768,15 @@
     <MESSAGE value="新增动态获取表单数据功能，新增视图模式" />
     <MESSAGE value="完善" />
     <MESSAGE value="增加痕迹保留（完善中）" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加痕迹保留（完善中）" />
+    <MESSAGE value="完善README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/public/ueditor/ueditor.all.js</url>
-          <line>26014</line>
+          <line>26017</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
@@ -733,21 +785,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/help/help.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor.parse.js" />
-    <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/attachment/attachment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1890">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/charts/charts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -889,30 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.parse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17368">
-          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/My97DatePicker/WdatePicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-237">
-          <caret line="251" column="12" lean-forward="false" selection-start-line="251" selection-start-column="2" selection-end-line="251" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/ajaxData/checkbox.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -982,23 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/timeinput.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="211" column="40" lean-forward="true" selection-start-line="211" selection-start-column="40" selection-end-line="211" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/ueditor/third-plugin/kityformula-plugin/addKityFormulaDialog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1020,94 +1016,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.all.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205308">
-          <caret line="11837" column="53" lean-forward="false" selection-start-line="11837" selection-start-column="37" selection-end-line="11837" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#340009#350929#0" expanded="false" />
-            <marker date="1500620778563" expanded="true" signature="355440:355453" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="359983:360000" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="365321:365339" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="459253:459279" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="605596:605726" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="826406:826501" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="863257:863333" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="875492:875510" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="875557:875599" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="875684:875714" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="894152:894224" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="904111:904137" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="904333:904424" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="904681:904756" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="904943:904958" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="905178:905230" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="917190:917279" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="981937:982009" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="1001018:1001030" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="1003217:1003241" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="1028310:1028316" ph=" " />
-            <marker date="1500620778563" expanded="true" signature="1028316:1028322" ph=" " />
-            <marker date="1500620778563" expanded="true" signature="1028426:1028432" ph=" " />
-            <marker date="1500620778563" expanded="true" signature="1028432:1028438" ph=" " />
-            <marker date="1500620778563" expanded="true" signature="1028542:1028548" ph=" " />
-            <marker date="1500620778563" expanded="true" signature="1028548:1028554" ph=" " />
-            <marker date="1500620778563" expanded="true" signature="1030723:1030729" ph=" " />
-            <marker date="1500620778563" expanded="true" signature="1030729:1030735" ph=" " />
-            <marker date="1500620778563" expanded="true" signature="1031702:1031708" ph=" " />
-            <marker date="1500620778563" expanded="true" signature="1031708:1031714" ph=" " />
-            <marker date="1500620778563" expanded="true" signature="1031854:1031860" ph=" " />
-            <marker date="1500620778563" expanded="true" signature="1031860:1031866" ph=" " />
-            <marker date="1500620778563" expanded="true" signature="1032008:1032014" ph=" " />
-            <marker date="1500620778563" expanded="true" signature="1032014:1032020" ph=" " />
-            <marker date="1500620778563" expanded="true" signature="1032164:1032170" ph=" " />
-            <marker date="1500620778563" expanded="true" signature="1032170:1032176" ph=" " />
-            <marker date="1500620778563" expanded="true" signature="1032986:1032997" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="1036934:1036947" ph="..." />
-            <marker date="1500620778563" expanded="true" signature="1037324:1037360" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ueditor/themes/iframe.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-857">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/innerHtml.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="0" column="37266" lean-forward="false" selection-start-line="0" selection-start-column="37266" selection-end-line="0" selection-end-column="37266" />
+        <state relative-caret-position="396">
+          <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/emreOak.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/public/ueditor/themes/default/css/ueditor.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="383">
+          <caret line="141" column="23" lean-forward="true" selection-start-line="135" selection-start-column="5" selection-end-line="141" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2772">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/checkbox.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="137" column="51" lean-forward="false" selection-start-line="137" selection-start-column="51" selection-end-line="137" selection-end-column="51" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1500859678568" expanded="true" signature="5636:5644" ph=" " />
@@ -1115,18 +1063,151 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/My97DatePicker/WdatePicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="373" column="57" lean-forward="false" selection-start-line="373" selection-start-column="57" selection-end-line="373" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/innerHtml.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/dialogs/oak-form/timeinput.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="182" column="51" lean-forward="false" selection-start-line="182" selection-start-column="51" selection-end-line="182" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.parse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9822">
+          <caret line="459" column="7" lean-forward="false" selection-start-line="459" selection-start-column="7" selection-end-line="459" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="6565" column="35" lean-forward="false" selection-start-line="6565" selection-start-column="28" selection-end-line="6565" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#340033#350953#0" expanded="false" />
+            <marker date="1500887551189" expanded="true" signature="355464:355477" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="360007:360024" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="365345:365363" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="459409:459435" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="605752:605882" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="826562:826657" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="863413:863489" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="875648:875666" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="875713:875755" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="875840:875870" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="894308:894380" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="904267:904293" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="904489:904580" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="904837:904912" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="905099:905114" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="905334:905386" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="917346:917435" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="982093:982165" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="1001174:1001186" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="1003373:1003397" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="1028466:1028472" ph=" " />
+            <marker date="1500887551189" expanded="true" signature="1028472:1028478" ph=" " />
+            <marker date="1500887551189" expanded="true" signature="1028582:1028588" ph=" " />
+            <marker date="1500887551189" expanded="true" signature="1028588:1028594" ph=" " />
+            <marker date="1500887551189" expanded="true" signature="1028698:1028704" ph=" " />
+            <marker date="1500887551189" expanded="true" signature="1028704:1028710" ph=" " />
+            <marker date="1500887551189" expanded="true" signature="1030879:1030885" ph=" " />
+            <marker date="1500887551189" expanded="true" signature="1030885:1030891" ph=" " />
+            <marker date="1500887551189" expanded="true" signature="1031858:1031864" ph=" " />
+            <marker date="1500887551189" expanded="true" signature="1031864:1031870" ph=" " />
+            <marker date="1500887551189" expanded="true" signature="1032010:1032016" ph=" " />
+            <marker date="1500887551189" expanded="true" signature="1032016:1032022" ph=" " />
+            <marker date="1500887551189" expanded="true" signature="1032164:1032170" ph=" " />
+            <marker date="1500887551189" expanded="true" signature="1032170:1032176" ph=" " />
+            <marker date="1500887551189" expanded="true" signature="1032320:1032326" ph=" " />
+            <marker date="1500887551189" expanded="true" signature="1032326:1032332" ph=" " />
+            <marker date="1500887551189" expanded="true" signature="1033142:1033153" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="1037090:1037103" ph="..." />
+            <marker date="1500887551189" expanded="true" signature="1037480:1037516" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/themes/iframe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.plugin.oak.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="1294" column="31" lean-forward="false" selection-start-line="1294" selection-start-column="31" selection-end-line="1294" selection-end-column="31" />
+        <state relative-caret-position="18108">
+          <caret line="1009" column="42" lean-forward="false" selection-start-line="1009" selection-start-column="42" selection-end-line="1009" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/vestigeReservation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#69#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="12" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ueditor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="306">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#62#100#0" expanded="true" />
@@ -1136,17 +1217,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.oak.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="78" column="9" lean-forward="true" selection-start-line="77" selection-start-column="14" selection-end-line="78" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="162" column="30" lean-forward="false" selection-start-line="162" selection-start-column="2" selection-end-line="162" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="258">
+          <caret line="218" column="17" lean-forward="true" selection-start-line="218" selection-start-column="17" selection-end-line="218" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

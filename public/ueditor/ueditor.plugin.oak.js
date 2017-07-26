@@ -61,7 +61,7 @@ var editCmds =  [
 ];
 var fixedCmds = [
   'undo', 'redo', 'formatmatch','removeformat','|','print','preview','searchreplace','|','allwidgets','allhtml'
-]
+];
 var insertCmds = [
   'simpleupload','insertimage','scrawl','inserttable','|','pagebreak','spechars','|','kityformula','|','horizontal','snapscreen','|',
   'inserttable','deletetable','insertparagraphbeforetable','insertrow','deleterow','insertcol','deletecol','|',
@@ -76,7 +76,11 @@ var tableCmds = [
 ];
 var emreCmds = [
   'template','controllibrary','checkbox','radio','select','input','timeinput'
-]
+];
+//页面布局
+var layoutCmds = [
+
+];
 
 /**
  * 创建OAKEditor对象
@@ -124,12 +128,14 @@ function command(editor){
   var editH = new OAKEditor({editor:editor,command:editCmds});
   var fixedH = new OAKEditor({editor:editor,command:fixedCmds});
   var insertH = new OAKEditor({editor:editor,command:insertCmds});
-  let emreH = new OAKEditor({editor:editor,command:emreCmds});
+  var emreH = new OAKEditor({editor:editor,command:emreCmds});
+  var layoutH = new OAKEditor({editor:editor,command:layoutCmds});
   return {
     editHtml : editH.renderCommand(),
     fixedHtml : fixedH.renderCommand(),
     insertHtml : insertH.renderCommand(),
     emreHtml : emreH.renderCommand(),
+    layoutHtml :layoutH.renderCommand(),
   }
 }
 
@@ -993,26 +999,27 @@ UE.plugins['select'] = function () {
       return ;
     }
     if(target.getElementsByClassName("oak-select-root").length==0){
-      var selectEl = document.createElement('div');
+      var selectEl = document.createElement('span');
       selectEl.className = "oak-field oak-select-root";
-      var html = '<div class="oak-select-content oak-field"><ul class="oak-select oak-field" data-type="select">'; //生成html
+      var html = '<span class="oak-select-content oak-field"><span class="oak-select oak-field" data-type="select">'; //生成html
       for(var i=0;i<bindData.length;i++){
-        html += '<li class="'+(bindData[i].SELECTED?'selected oak-field':'oak-field')+'" value="'+bindData[i].VALUE+'" title="'+bindData[i].TEXT+'">'+bindData[i].TEXT+'</li>'
+        html += '<span class="'+(bindData[i].SELECTED?'selected oak-field li':'oak-field li')+'" value="'+bindData[i].VALUE+'" title="'+bindData[i].TEXT+'">'+bindData[i].TEXT+'</span>'
       }
-      html += '</ul></div>';
+      html += '</span></span>';
       selectEl.innerHTML = html;
+      //selectEl.style.display = 'inline';
       target.appendChild(selectEl);
     }else{
       target.getElementsByClassName('oak-select-root')[0].style.display="";
     }
     //实现下拉选中
     if(parentSelect){
-       var allLis = parentSelect.getElementsByTagName('li');
+       var allLis = parentSelect.getElementsByClassName('li');
        for(var i=0;i<allLis.length;i++){
-         allLis[i].className = 'oak-field';
+         allLis[i].className = 'oak-field li';
        }
        selectValue = el.getAttribute('title');
-       el.className = 'oak-field selected';
+       el.className = 'oak-field selected li';
        target.getElementsByClassName('oak-field-value')[0].innerHTML = selectValue;
        target.getElementsByClassName('oak-select-root')[0].style.display="none";
     }

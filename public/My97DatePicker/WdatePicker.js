@@ -371,7 +371,7 @@ var $dp, WdatePicker;
       var F = D();
       if (F) {
         $dp.srcEl = F.srcElement || F.target;
-        F.cancelBubble = true
+        //F.cancelBubble = true // 2017-7-24 liulingli 修改
       }
       $dp.el = J.el = $dp.$(J.el || $dp.srcEl);
       if (!$dp.el || $dp.el["My97Mark"] === true || $dp.el.disabled || ($dp.el == $dp.el && Q($dp.dd) != "none" && $dp.dd.style.left != "-1970px")) {

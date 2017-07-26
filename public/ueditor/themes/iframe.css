@@ -16,9 +16,9 @@
     background:inherit;
 }
 .oak-field-value{
-    padding:0 3px;
+   /* padding:0 3px;
     margin-left:-3px;
-    margin-right:-3px;
+    margin-right:-3px;*/
     display:inline-block;
     background:inherit;
 }
@@ -44,8 +44,10 @@ input.oak-field-value{
     z-index:99999;
     left:0;
     min-width: 100%;
+
 }
 .oak-select{
+    display: inline-block;
     min-width: 100%;
     padding:4px 2px !important;
     border:1px solid #f4f4f4;
@@ -53,7 +55,7 @@ input.oak-field-value{
     background:#ffffff;
     overflow:hidden;
 }
-.oak-select li{
+.oak-select span.li{
     min-width: calc(100% - 10px);
     padding:0 5px;
     display:block;
@@ -64,11 +66,11 @@ input.oak-field-value{
     cursor:pointer;
     white-space: nowrap;
 }
-.oak-select li:hover{
+.oak-select span.li:hover{
     background:rgba(15,136,235,0.4);
 }
-.oak-select li.selected,
-.oak-select li.selected:hover{
+.oak-select span.li.selected,
+.oak-select span.li.selected:hover{
     background:rgba(15,136,235,0.8);
     color:#ffffff;
 }

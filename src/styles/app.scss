@@ -26,7 +26,7 @@ body,html{
   width:100%;
   margin:0 auto;
   background:#f1f1f1;
-  position:absolute;
+  position:relative;
   top:0;
 
   .edui-button-oak{
@@ -87,15 +87,24 @@ body,html{
   width:100%;
   height:calc(100% - 90px);
   position:absolute;
-  top:90px;
   overflow: auto;
+}
+.ueditor-content{
+  margin : 0 auto;
+  margin-top : 10px;
+  padding: 0 25px;
+  border: 1px solid #d4d4d4;
+  background-color: white;
+  position: relative;
+  overflow: visible;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  box-shadow:rgba(0, 0, 0, 0.2) 0 1px 6px, rgba(0, 0, 0, 0.2) 0 1px 4px;
 }
 .ueditor-script-oak{
   margin:15px auto;
-  min-height:800px;
-}
-.edui-editor{
-  box-shadow:rgba(0, 0, 0, 0.2) 0 1px 6px, rgba(0, 0, 0, 0.2) 0 1px 4px;
+  /*min-height:800px;*/
 }
 /*图标样式 空间库图标 */
 .edui-default .edui-toolbar .edui-button.edui-for-controllibrary-1 .edui-icon{
@@ -158,9 +167,29 @@ body,html{
   background-repeat: no-repeat;
   background-position:center center;
 }
+/* 图标样式，纸张方向横向 */
+.edui-default .edui-toolbar .edui-button.edui-for-orient .edui-icon{
+  width: 30px !important;
+  height: 20px !important;
+  background-image:url('../../public/ueditor/imgs/orient.png');
+  background-size:85%;
+  background-repeat: no-repeat;
+  background-position:center center;
+}
+
+/* 图标样式，纸张方向纵向 */
+.edui-default .edui-toolbar .edui-button.edui-for-portrait .edui-icon{
+  width: 20px !important;
+  height: 20px !important;
+  background-image:url('../../public/ueditor/imgs/portrait.png');
+  background-size:85%;
+  background-repeat: no-repeat;
+  background-position:center center;
+}
 .edui-button-wrap:hover{
   background-color: #fff5d4;
-  /*border: 1px solid #dcac6c;*/
+  border: 1px solid #dcac6c;
+  padding: 0 !important;
 }
 .edui-default .edui-bubble .edui-popup-content{
   font-family:'microsoft yahei' !important;

@@ -174,10 +174,13 @@
         WdatePicker({dateFmt:curFormat,vel:'maxDate_1'});
       }
     }
-
     if( UE.plugins[thePlugins].editdom ) {
       oNode = UE.plugins[thePlugins].editdom;
       var obj = eval("(" + oNode.getAttribute('obj') + ")");
+      var format = obj.textType;
+      $id('defaultValue').setAttribute('format',format);
+      $id('minDate').setAttribute('format',format);
+      $id('maxDate').setAttribute('format',format);
       for(var key in obj){
         if($id(key)){
           $id(key).value =  obj[key];
@@ -223,6 +226,7 @@
         var html = '<span class="oak-field oakplugin" style="'+placeStyle+'" oakplugin="'+thePlugins+'" id="'+obj.orgID+'" title="'+gTitle+'" obj="'+objStr+'" contenteditable="false">';
         html += '<span class="oak-field oak-left" style="'+placeStyle+'" contenteditable="false">[</span>'
         html += '<input class="oak-field oak-field-value" style="'+style+'" value="'+obj.defaultValue+'" onclick="if(this.nodeType!=1)return;if(document.body.getAttribute(\'pattern\')==\'readonly\'){this.setAttribute(\'readonly\',\'readonly\');return;}else{this.removeAttribute(\'readonly\');}WdatePicker({dateFmt:\''+obj.textType+'\',vel:\''+name+'\',minDate:\''+obj.minDate_1+'\',maxDate:\''+obj.maxDate_1+'\'})" />';
+        //html += '<input class="oak-field oak-field-value" style="'+style+'" value="'+obj.defaultValue+'" onclick="ceshi()" />';
         html += '<input type="hidden" id="'+name+'" value="'+obj.defaultValue_1+'"/>';
         html += '<span class="oak-field oak-right" style="'+placeStyle+'" contenteditable="false">]</span>';
         html += '</span>';
